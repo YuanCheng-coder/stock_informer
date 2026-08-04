@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.6 - 2026-08-05 01:55
+- AnalysisCardView: card radius → AppTheme.cardRadius
+
 ## v1.0.5 - 2026-08-05 01:52
 - ContentView: quote header colors → AppTheme.trendColor
 

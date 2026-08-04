@@ -48,7 +48,7 @@ struct AnalysisCardView: View {
                 .foregroundStyle(.secondary)
         }
         .padding()
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
+        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: AppTheme.cardRadius))
     }
 
     private var trendColor: Color {

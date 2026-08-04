@@ -8,3 +8,4 @@
 | 3 | 2026-08-05 01:50 | ContentView: VStack spacing → AppTheme.sectionSpacing |
 | 4 | 2026-08-05 01:50 | ContentView: chart lineColor → AppTheme.trendColor |
 | 5 | 2026-08-05 01:52 | ContentView: quote header colors → AppTheme.trendColor |
+| 6 | 2026-08-05 01:55 | AnalysisCardView: card radius → AppTheme.cardRadius |
