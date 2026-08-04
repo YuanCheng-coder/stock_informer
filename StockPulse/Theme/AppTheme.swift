@@ -11,7 +11,6 @@ enum AppTheme {
     static let chartHeight: CGFloat = 132
     static let watchlistSelectedOpacity: Double = 0.18
     static let cardShadowOpacity: Double = 0.06
-    static let cardShadowOpacity: Double = 0.06
 
     static func trendColor(isUp: Bool) -> Color {
         isUp ? bullish : bearish

@@ -1554,3 +1554,121 @@ GIT_PUSH_OK a1be0d07af090b53e90c643d3861ef94ee736617
 [02:08:45] --- iter #99: ContentView: 自选选中 opacity 使用 AppTheme 常量 ---
 [02:08:45]   [设计三问] 新特性: 设计系统常量扩展 | 优雅: 全局色彩/间距一致 | 亲肤: 柔和配色，深浅模式都舒适
 [02:08:45]   [设计三问] 新特性: 设计系统常量扩展 | 优雅: 全局色彩/间距一致 | 亲肤: 柔和配色，深浅模式都舒适
+[02:08:48] [main 3db54f2] iter #99: ContentView: 自选选中 opacity 使用 AppTheme 常量 [v1.0.99]
+ 7 files changed, 25 insertions(+), 3 deletions(-)
+GIT_PUSH_OK 3db54f2e02e6d985def678821b406446486084bf
+[02:08:48] [main 3db54f2] iter #99: ContentView: 自选选中 opacity 使用 AppTheme 常量 [v1.0.99]
+ 7 files changed, 25 insertions(+), 3 deletions(-)
+GIT_PUSH_OK 3db54f2e02e6d985def678821b406446486084bf
+[02:08:48]   OK pushed #99
+[02:08:48]   OK pushed #99
+[02:08:49] --- iter #100: README: 100 次迭代完成标记 ---
+[02:08:49] --- iter #100: README: 100 次迭代完成标记 ---
+[02:08:49]   [设计三问] 新特性: 版本里程碑文档 | 优雅: 项目进展可追溯 | 亲肤: 完成标记给用户安心感
+[02:08:49]   [设计三问] 新特性: 版本里程碑文档 | 优雅: 项目进展可追溯 | 亲肤: 完成标记给用户安心感
+[02:09:35] [main d9ad10c] iter #100: README: 100 次迭代完成标记 [v1.0.100]
+ 7 files changed, 28 insertions(+), 2 deletions(-)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1400, in connect
+    server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:847)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuancheng/demo/stock_informer/scripts/github_push.py", line 123, in <module>
+    push(msg)
+  File "/Users/yuancheng/demo/stock_informer/scripts/github_push.py", line 116, in push
+    sha = api_push(token, message)
+  File "/Users/yuancheng/demo/stock_informer/scripts/github_push.py", line 68, in api_push
+    parent = api_request(token, 'GET', f'{API}/git/ref/heads/main')['object']['sha']
+  File "/Users/yuancheng/demo/stock_informer/scripts/github_push.py", line 37, in api_request
+    with urllib.request.urlopen(req, timeout=120) as resp:
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:847)>
+[02:09:35] [main d9ad10c] iter #100: README: 100 次迭代完成标记 [v1.0.100]
+ 7 files changed, 28 insertions(+), 2 deletions(-)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1318, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 964, in send
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/client.py", line 1400, in connect
+    server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 407, in wrap_socket
+    _context=self, _session=session)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 817, in __init__
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 1077, in do_handshake
+    self._sslobj.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/ssl.py", line 689, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:847)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuancheng/demo/stock_informer/scripts/github_push.py", line 123, in <module>
+    push(msg)
+  File "/Users/yuancheng/demo/stock_informer/scripts/github_push.py", line 116, in push
+    sha = api_push(token, message)
+  File "/Users/yuancheng/demo/stock_informer/scripts/github_push.py", line 68, in api_push
+    parent = api_request(token, 'GET', f'{API}/git/ref/heads/main')['object']['sha']
+  File "/Users/yuancheng/demo/stock_informer/scripts/github_push.py", line 37, in api_request
+    with urllib.request.urlopen(req, timeout=120) as resp:
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 526, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 544, in _open
+    '_open', req)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 504, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py", line 1320, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:847)>
+[02:09:35]   FAIL push #100
+[02:09:35]   FAIL push #100
+[02:09:36] === 完成: 共 99/100 次迭代 ===
+[02:09:36] === 完成: 共 99/100 次迭代 ===

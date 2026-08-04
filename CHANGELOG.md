@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.100 - 2026-08-05 02:08
+- README: 100 次迭代完成标记
+
 ## v1.0.99 - 2026-08-05 02:08
 - ContentView: 自选选中 opacity 使用 AppTheme 常量
 
