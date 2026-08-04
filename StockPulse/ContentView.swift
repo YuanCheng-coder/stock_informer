@@ -11,6 +11,10 @@ struct ContentView: View {
             ScrollView {
                 VStack(spacing: AppTheme.sectionSpacing) {
                     searchSection
+                    if viewModel.isLoading && viewModel.quote == nil {
+                        ProgressView("加载中…")
+                            .padding(.top, 60)
+                    }
                     if let quote = viewModel.quote {
                         quoteHeader(quote)
                         MiniChartView(

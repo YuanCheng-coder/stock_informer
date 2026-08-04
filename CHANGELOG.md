@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.97 - 2026-08-05 02:08
+- ContentView: 加载态 ProgressView
+
 ## v1.0.96 - 2026-08-05 02:08
 - Widget: 中尺寸 Label 图标色 accent
 
