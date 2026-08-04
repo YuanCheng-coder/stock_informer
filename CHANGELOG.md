@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.31 - 2026-08-05 02:03
+- SettingsView: checkmark → AppTheme.accent
+
 ## v1.0.30 - 2026-08-05 02:03
 - ContentView: 价格 accessibilityLabel
 

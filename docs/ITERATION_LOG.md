@@ -33,3 +33,4 @@
 | 28 | 2026-08-05 02:03 | ContentView: 股票名称 title2 |
 | 29 | 2026-08-05 02:03 | ContentView: 涨跌箭头 accessibility |
 | 30 | 2026-08-05 02:03 | ContentView: 价格 accessibilityLabel |
+| 31 | 2026-08-05 02:03 | SettingsView: checkmark → AppTheme.accent |

@@ -47,7 +47,7 @@ struct SettingsView: View {
                             Spacer()
                             if viewModel.selectedSymbol == item.symbol {
                                 Image(systemName: "checkmark.circle.fill")
-                                    .foregroundStyle(.blue)
+                                    .foregroundStyle(AppTheme.accent)
                             }
                         }
                         .contentShape(Rectangle())

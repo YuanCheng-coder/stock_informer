@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.31 — SettingsView: checkmark → AppTheme.accent
+
+1. **新特性**：设置页体验优化
+2. **更优雅**：分组清晰、操作直观
+3. **更亲肤**：文案温和，减少认知负担
+
 ## v1.0.30 — ContentView: 价格 accessibilityLabel
 
 1. **新特性**：无障碍标签/提示
