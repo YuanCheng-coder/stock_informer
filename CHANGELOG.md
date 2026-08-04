@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.81 - 2026-08-05 02:07
+- ContentView: 空态 headline foregroundStyle
+
 ## v1.0.80 - 2026-08-05 02:07
 - Widget: 小尺寸 VStack spacing 6 → 8
 

@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.81 — ContentView: 空态 headline foregroundStyle
+
+1. **新特性**：界面细节持续打磨
+2. **更优雅**：统一 AppTheme 设计语言
+3. **更亲肤**：圆角卡片、柔和配色，长时间使用不疲劳
+
 ## v1.0.80 — Widget: 小尺寸 VStack spacing 6 → 8
 
 1. **新特性**：桌面小组件视觉优化

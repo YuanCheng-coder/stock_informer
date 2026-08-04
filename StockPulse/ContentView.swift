@@ -33,6 +33,7 @@ struct ContentView: View {
                                 .foregroundStyle(AppTheme.accent.opacity(0.55))
                             Text("暂无分析")
                                 .font(.headline)
+                                .foregroundStyle(.primary)
                             Text("输入股票代码并刷新，即可查看走势分析")
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
