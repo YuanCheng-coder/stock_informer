@@ -155,7 +155,7 @@ struct ContentView: View {
     }
 
     private var watchlistSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        VStack(alignment: .leading, spacing: 14) {
             Label("快捷自选", systemImage: "star.fill")
                 .font(.headline)
                 .foregroundStyle(AppTheme.accent)

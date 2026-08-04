@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.86 - 2026-08-05 02:07
+- ContentView: watchlistSection spacing 12 → 14
+
 ## v1.0.85 - 2026-08-05 02:07
 - ContentView: quoteHeader spacing 8 → 10
 

@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.86 — ContentView: watchlistSection spacing 12 → 14
+
+1. **新特性**：留白与呼吸感
+2. **更优雅**：视觉层级更舒展
+3. **更亲肤**：加大触控区，手指操作更轻松
+
 ## v1.0.85 — ContentView: quoteHeader spacing 8 → 10
 
 1. **新特性**：留白与呼吸感
