@@ -10,3 +10,4 @@
 | 5 | 2026-08-05 01:52 | ContentView: quote header colors → AppTheme.trendColor |
 | 6 | 2026-08-05 01:55 | AnalysisCardView: card radius → AppTheme.cardRadius |
 | 7 | 2026-08-05 01:55 | AnalysisCardView: trend colors → AppTheme palette |
+| 8 | 2026-08-05 01:55 | MiniChartView: line width + round cap |

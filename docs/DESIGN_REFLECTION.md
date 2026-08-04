@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.8 — MiniChartView: line width + round cap
+
+1. **新特性**：走势图表美学提升
+2. **更优雅**：线条圆润、留白舒适
+3. **更亲肤**：淡色背景，长时间看不疲劳
+
 ## v1.0.7 — AnalysisCardView: trend colors → AppTheme palette
 
 1. **新特性**：卡片式信息布局

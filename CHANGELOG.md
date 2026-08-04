@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.8 - 2026-08-05 01:55
+- MiniChartView: line width + round cap
+
 ## v1.0.7 - 2026-08-05 01:55
 - AnalysisCardView: trend colors → AppTheme palette
 
