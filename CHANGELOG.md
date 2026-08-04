@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.22 - 2026-08-05 02:03
+- ContentView: 搜索框 placeholder 优化
+
 ## v1.0.21 - 2026-08-05 02:03
 - AnalysisCardView: 支撑阻力 medium 字重
 
