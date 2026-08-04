@@ -159,7 +159,7 @@ struct ContentView: View {
                 .padding(.horizontal)
 
             ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 10) {
+                HStack(spacing: 8) {
                     ForEach(viewModel.watchlist) { item in
                         Button {
                             lightHaptic()
