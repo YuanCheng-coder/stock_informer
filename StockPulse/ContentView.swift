@@ -66,7 +66,7 @@ struct ContentView: View {
                         Task { lightHaptic(); await viewModel.refresh() }
                     } label: {
                         if viewModel.isLoading {
-                            ProgressView()
+                            ProgressView().tint(AppTheme.accent)
                         } else {
                             Image(systemName: "arrow.clockwise")
                                 .accessibilityLabel("刷新")

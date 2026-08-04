@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.69 - 2026-08-05 02:06
+- ContentView: toolbar 刷新 ProgressView tint
+
 ## v1.0.68 - 2026-08-05 02:06
 - AnalysisCardView: Divider 间距
 

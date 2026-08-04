@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.69 — ContentView: toolbar 刷新 ProgressView tint
+
+1. **新特性**：温和加载态
+2. **更优雅**：等待时有明确反馈
+3. **更亲肤**：文案「加载中…」代替空白，减少焦虑
+
 ## v1.0.68 — AnalysisCardView: Divider 间距
 
 1. **新特性**：卡片式信息布局
