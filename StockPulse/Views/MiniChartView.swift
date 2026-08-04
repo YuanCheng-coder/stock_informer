@@ -27,6 +27,7 @@ struct MiniChartView: View {
             } else {
                 Text("暂无走势数据")
                     .font(.caption2)
+                    .accessibilityLabel("暂无走势数据")
                     .foregroundStyle(.secondary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }

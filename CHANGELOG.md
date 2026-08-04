@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.25 - 2026-08-05 02:03
+- MiniChartView: 空态 accessibility
+
 ## v1.0.24 - 2026-08-05 02:03
 - ContentView: 图表卡片背景 (dark mode)
 
