@@ -46,3 +46,4 @@
 | 41 | 2026-08-05 02:04 | Widget: 小尺寸涨跌色 → AppTheme |
 | 42 | 2026-08-05 02:04 | Widget: 中尺寸涨跌色 → AppTheme |
 | 43 | 2026-08-05 02:04 | Widget: 迷你图 lineColor → AppTheme |
+| 44 | 2026-08-05 02:04 | Widget: padding 12pt |

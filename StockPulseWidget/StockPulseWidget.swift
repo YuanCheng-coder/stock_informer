@@ -134,8 +134,8 @@ struct StockPulseWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: StockPulseProvider()) { entry in
             StockPulseWidgetEntryView(entry: entry)
-                .padding()
-                .background(Color(.systemBackground))
+                .padding(12)
+                .background(Color(.secondarySystemBackground))
         }
         .configurationDisplayName("StockPulse")
         .description("随时查看股价走势与简短投资分析。")

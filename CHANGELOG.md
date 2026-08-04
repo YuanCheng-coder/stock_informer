@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.44 - 2026-08-05 02:04
+- Widget: padding 12pt
+
 ## v1.0.43 - 2026-08-05 02:04
 - Widget: 迷你图 lineColor → AppTheme
 
