@@ -111,7 +111,7 @@ struct StockPulseWidgetEntryView: View {
                 if let analysis = entry.analysis {
                     Label(analysis.trend.rawValue, systemImage: "chart.line.uptrend.xyaxis")
                         .font(.caption)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(AppTheme.accent)
                 }
             }
 

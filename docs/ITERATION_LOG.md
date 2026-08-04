@@ -98,3 +98,4 @@
 | 93 | 2026-08-05 02:08 | SettingsView: widget footer 文案优化 |
 | 94 | 2026-08-05 02:08 | MiniChartView: 默认 lineColor → AppTheme.bullish |
 | 95 | 2026-08-05 02:08 | ContentView: navigationTitle 改 StockPulse 📊 |
+| 96 | 2026-08-05 02:08 | Widget: 中尺寸 Label 图标色 accent |
