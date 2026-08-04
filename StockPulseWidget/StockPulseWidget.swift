@@ -72,7 +72,7 @@ struct StockPulseWidgetEntryView: View {
 
             if let quote = entry.quote, quote.price > 0 {
                 Text(formatPrice(quote.price))
-                    .font(.title2.bold())
+                    .font(.title.bold())
                     .monospacedDigit()
                 Text("\(quote.isUp ? "+" : "")\(String(format: "%.2f%%", quote.changePercent))")
                     .font(.caption.weight(.medium))
