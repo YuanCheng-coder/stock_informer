@@ -61,10 +61,15 @@ def append_line(path, line):
 
 
 def push(message):
-    result = subprocess.run(
-        [sys.executable, os.path.join(ROOT, 'scripts', 'github_push.py'), message],
-        cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True,
-    )
+    try:
+        result = subprocess.run(
+            [sys.executable, os.path.join(ROOT, 'scripts', 'github_push.py'), message],
+            cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+            universal_newlines=True, timeout=180,
+        )
+    except subprocess.TimeoutExpired:
+        log('  push timeout')
+        return False
     out = (result.stdout or '') + (result.stderr or '')
     log(out.strip())
     return result.returncode == 0 and 'NO_CHANGES' not in out
@@ -432,7 +437,7 @@ def run(from_iter=1, count=100):
         update_changelog(num, msg)
         log_iteration(num, msg)
 
-        commit_msg = f'iter #{num}: {msg} [v1.0.{num}]'
+        commit_msg = 'iter #{}: {} [v1.0.{}]'.format(num, msg, num)
         ok = push(commit_msg)
         if ok:
             state['completed'] = num
