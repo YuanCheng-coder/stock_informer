@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.7 - 2026-08-05 01:55
+- AnalysisCardView: trend colors → AppTheme palette
+
 ## v1.0.6 - 2026-08-05 01:55
 - AnalysisCardView: card radius → AppTheme.cardRadius
 

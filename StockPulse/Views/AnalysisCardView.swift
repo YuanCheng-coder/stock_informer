@@ -53,9 +53,9 @@ struct AnalysisCardView: View {
 
     private var trendColor: Color {
         switch analysis.trend {
-        case .bullish: return .green
-        case .bearish: return .red
-        case .neutral: return .orange
+        case .bullish: return AppTheme.bullish
+        case .bearish: return AppTheme.bearish
+        case .neutral: return AppTheme.neutral
         }
     }
 
