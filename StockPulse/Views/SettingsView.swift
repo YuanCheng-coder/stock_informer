@@ -34,6 +34,12 @@ struct SettingsView: View {
                     Text("开启后，会按设定间隔推送股价简报，App 前台时同步刷新。")
                 }
 
+                Section {
+                    Text("点击自选可切换当前分析标的")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+
                 Section("自选股管理") {
                     ForEach(viewModel.watchlist) { item in
                         HStack {

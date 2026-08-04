@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.34 - 2026-08-05 02:03
+- SettingsView: 自选说明 Section
+
 ## v1.0.33 - 2026-08-05 02:03
 - SettingsView: footer 文案精简
 
