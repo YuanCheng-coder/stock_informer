@@ -78,7 +78,7 @@ struct StockPulseWidgetEntryView: View {
                     .font(.caption.weight(.medium))
                     .foregroundStyle(AppTheme.trendColor(isUp: quote.isUp))
             } else {
-                Text("打开 App 刷新")
+                Text("点击打开 StockPulse")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
