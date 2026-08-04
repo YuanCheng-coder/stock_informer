@@ -116,7 +116,7 @@ struct ContentView: View {
                 .multilineTextAlignment(.center)
 
             Text(formatPrice(quote.price))
-                .font(.system(size: 42, weight: .bold, design: .rounded))
+                .font(.system(size: 44, weight: .bold, design: .rounded))
                 .monospacedDigit()
 
             HStack(spacing: 8) {

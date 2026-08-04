@@ -29,3 +29,4 @@
 | 24 | 2026-08-05 02:03 | ContentView: 图表卡片背景 (dark mode) |
 | 25 | 2026-08-05 02:03 | MiniChartView: 空态 accessibility |
 | 26 | 2026-08-05 02:03 | MiniChartView: 线宽增至 3 |
+| 27 | 2026-08-05 02:03 | ContentView: 价格字体 42 → 44 |
