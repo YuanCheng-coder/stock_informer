@@ -118,6 +118,7 @@ struct ContentView: View {
             Text(formatPrice(quote.price))
                 .font(.system(size: 44, weight: .bold, design: .rounded))
                 .monospacedDigit()
+                .accessibilityLabel("当前价格 \(formatPrice(quote.price))")
 
             HStack(spacing: 8) {
                 Image(systemName: quote.isUp ? "arrow.up.right" : "arrow.down.right")
