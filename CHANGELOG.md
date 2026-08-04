@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.53 - 2026-08-05 02:05
+- ContentView: 搜索提交触觉反馈
+
 ## v1.0.52 - 2026-08-05 02:05
 - ContentView: lightHaptic 辅助函数
 

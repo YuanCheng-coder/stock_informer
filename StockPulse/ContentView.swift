@@ -110,6 +110,7 @@ struct ContentView: View {
     }
 
     private func submitSearch() {
+        lightHaptic()
         let symbol = searchSymbol.isEmpty ? viewModel.selectedSymbol : searchSymbol
         viewModel.selectSymbol(symbol)
     }
