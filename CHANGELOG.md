@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.23 - 2026-08-05 02:03
+- MiniChartView: drawingGroup 渲染优化
+
 ## v1.0.22 - 2026-08-05 02:03
 - ContentView: 搜索框 placeholder 优化
 
