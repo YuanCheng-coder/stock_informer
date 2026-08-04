@@ -183,6 +183,7 @@ struct ContentView: View {
                             )
                         }
                         .buttonStyle(.plain)
+                        .accessibilityLabel("\(item.displayName.isEmpty ? item.symbol : item.displayName)")
                     }
                 }
                 .padding(.horizontal)

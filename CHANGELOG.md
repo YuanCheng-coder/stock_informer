@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.64 - 2026-08-05 02:06
+- ContentView: 自选按钮 accessibilityLabel
+
 ## v1.0.63 - 2026-08-05 02:06
 - Widget: 小尺寸 accessibility 组合
 
