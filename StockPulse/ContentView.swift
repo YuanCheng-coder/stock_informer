@@ -178,7 +178,7 @@ struct ContentView: View {
                                 }
                             }
                             .padding(.horizontal, 14)
-                            .padding(.vertical, 10)
+                            .padding(.vertical, 12)
                             .background(
                                 viewModel.selectedSymbol == item.symbol
                                     ? AppTheme.accent.opacity(0.18)

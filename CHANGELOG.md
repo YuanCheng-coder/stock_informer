@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.92 - 2026-08-05 02:08
+- ContentView: 自选 pill vertical padding 10 → 12
+
 ## v1.0.91 - 2026-08-05 02:08
 - AnalysisCardView: trend Label subheadline → callout
 
