@@ -66,6 +66,7 @@ struct ContentView: View {
                             ProgressView()
                         } else {
                             Image(systemName: "arrow.clockwise")
+                                .accessibilityLabel("刷新")
                         }
                     }
                     .disabled(viewModel.isLoading)

@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.57 - 2026-08-05 02:05
+- ContentView: 刷新按钮 accessibility
+
 ## v1.0.56 - 2026-08-05 02:05
 - ContentView: 设置按钮 accessibility
 
