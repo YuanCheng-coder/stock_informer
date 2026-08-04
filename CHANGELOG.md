@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.14 - 2026-08-05 02:01
+- AnalysisCardView: 卡片阴影
+
 ## v1.0.13 - 2026-08-05 02:01
 - AnalysisCardView: 内边距 16pt
 
