@@ -72,3 +72,4 @@
 | 67 | 2026-08-05 02:06 | ContentView: 未选中自选 pill 背景 semantic |
 | 68 | 2026-08-05 02:06 | AnalysisCardView: Divider 间距 |
 | 69 | 2026-08-05 02:06 | ContentView: toolbar 刷新 ProgressView tint |
+| 70 | 2026-08-05 02:06 | AppTheme: cardShadow 常量 |

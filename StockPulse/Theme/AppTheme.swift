@@ -8,6 +8,7 @@ enum AppTheme {
     static let cardRadius: CGFloat = 20
     static let pillRadius: CGFloat = 14
     static let sectionSpacing: CGFloat = 18
+    static let cardShadowOpacity: Double = 0.06
 
     static func trendColor(isUp: Bool) -> Color {
         isUp ? bullish : bearish

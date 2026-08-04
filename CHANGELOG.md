@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.70 - 2026-08-05 02:06
+- AppTheme: cardShadow 常量
+
 ## v1.0.69 - 2026-08-05 02:06
 - ContentView: toolbar 刷新 ProgressView tint
 
