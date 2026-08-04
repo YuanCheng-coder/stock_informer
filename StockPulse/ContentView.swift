@@ -17,6 +17,8 @@ struct ContentView: View {
                             lineColor: AppTheme.trendColor(isUp: quote.isUp)
                         )
                         .frame(height: 132)
+                        .padding(8)
+                        .background(Color(.secondarySystemBackground), in: RoundedRectangle(cornerRadius: AppTheme.pillRadius))
                         .padding(.horizontal)
                     }
                     if let analysis = viewModel.analysis {

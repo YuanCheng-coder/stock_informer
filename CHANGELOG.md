@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.24 - 2026-08-05 02:03
+- ContentView: 图表卡片背景 (dark mode)
+
 ## v1.0.23 - 2026-08-05 02:03
 - MiniChartView: drawingGroup 渲染优化
 
