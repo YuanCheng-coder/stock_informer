@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.84 — AnalysisCardView: 投资建议标题 accent
+
+1. **新特性**：卡片式信息布局
+2. **更优雅**：阴影/圆角/间距统一
+3. **更亲肤**：投资建议区柔和底色，阅读不费力
+
 ## v1.0.83 — SettingsView: 自选股 symbol headline → subheadline semibold
 
 1. **新特性**：设置页体验优化

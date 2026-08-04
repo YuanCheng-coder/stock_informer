@@ -27,7 +27,7 @@ struct AnalysisCardView: View {
             VStack(alignment: .leading, spacing: 6) {
                 Text("投资建议")
                     .font(.subheadline.weight(.semibold))
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(AppTheme.accent)
                 Text(analysis.investmentAdvice)
                     .font(.callout)
                     .padding(10)
