@@ -17,7 +17,7 @@ struct ContentView: View {
                             prices: quote.prices,
                             lineColor: AppTheme.trendColor(isUp: quote.isUp)
                         )
-                        .frame(height: 132)
+                        .frame(height: AppTheme.chartHeight)
                         .padding(8)
                         .background(Color(.secondarySystemBackground), in: RoundedRectangle(cornerRadius: AppTheme.pillRadius))
                         .padding(.horizontal)

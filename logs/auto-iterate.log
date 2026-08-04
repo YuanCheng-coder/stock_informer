@@ -1370,3 +1370,15 @@ GIT_PUSH_OK 68aab6a94431596b86bbf94decaf5367bd37812f
 [02:07:54] --- iter #87: AppTheme: chartHeight + cardShadowOpacity 常量 ---
 [02:07:54]   [设计三问] 新特性: 走势图表美学提升 | 优雅: 线条圆润、留白舒适 | 亲肤: 淡色背景，长时间看不疲劳
 [02:07:54]   [设计三问] 新特性: 走势图表美学提升 | 优雅: 线条圆润、留白舒适 | 亲肤: 淡色背景，长时间看不疲劳
+[02:07:56] [main 47cf088] iter #87: AppTheme: chartHeight + cardShadowOpacity 常量 [v1.0.87]
+ 7 files changed, 26 insertions(+), 2 deletions(-)
+GIT_PUSH_OK 47cf0888823b21432b8c20f77b51a087d005cf8d
+[02:07:56] [main 47cf088] iter #87: AppTheme: chartHeight + cardShadowOpacity 常量 [v1.0.87]
+ 7 files changed, 26 insertions(+), 2 deletions(-)
+GIT_PUSH_OK 47cf0888823b21432b8c20f77b51a087d005cf8d
+[02:07:56]   OK pushed #87
+[02:07:56]   OK pushed #87
+[02:07:57] --- iter #88: ContentView: 图表高度使用 AppTheme.chartHeight ---
+[02:07:57] --- iter #88: ContentView: 图表高度使用 AppTheme.chartHeight ---
+[02:07:57]   [设计三问] 新特性: 走势图表美学提升 | 优雅: 线条圆润、留白舒适 | 亲肤: 淡色背景，长时间看不疲劳
+[02:07:57]   [设计三问] 新特性: 走势图表美学提升 | 优雅: 线条圆润、留白舒适 | 亲肤: 淡色背景，长时间看不疲劳

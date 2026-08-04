@@ -90,3 +90,4 @@
 | 85 | 2026-08-05 02:07 | ContentView: quoteHeader spacing 8 → 10 |
 | 86 | 2026-08-05 02:07 | ContentView: watchlistSection spacing 12 → 14 |
 | 87 | 2026-08-05 02:07 | AppTheme: chartHeight + cardShadowOpacity 常量 |
+| 88 | 2026-08-05 02:07 | ContentView: 图表高度使用 AppTheme.chartHeight |
