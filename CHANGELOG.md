@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.91 - 2026-08-05 02:08
+- AnalysisCardView: trend Label subheadline → callout
+
 ## v1.0.90 - 2026-08-05 02:08
 - ContentView: 搜索 HStack spacing 12 → 10
 

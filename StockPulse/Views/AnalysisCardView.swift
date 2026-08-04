@@ -12,7 +12,7 @@ struct AnalysisCardView: View {
                 Spacer()
                 Label(analysis.trend.rawValue, systemImage: trendIcon)
                     .accessibilityLabel("趋势 \(analysis.trend.rawValue)")
-                    .font(.subheadline.weight(.semibold))
+                    .font(.callout.weight(.semibold))
                     .foregroundStyle(trendColor)
             }
 

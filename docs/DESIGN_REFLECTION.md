@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.91 — AnalysisCardView: trend Label subheadline → callout
+
+1. **新特性**：卡片式信息布局
+2. **更优雅**：阴影/圆角/间距统一
+3. **更亲肤**：投资建议区柔和底色，阅读不费力
+
 ## v1.0.90 — ContentView: 搜索 HStack spacing 12 → 10
 
 1. **新特性**：留白与呼吸感
