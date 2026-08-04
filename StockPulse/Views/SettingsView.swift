@@ -88,7 +88,7 @@ struct SettingsView: View {
                         Label("在桌面添加小组件", systemImage: "square.grid.2x2")
                     }
                 } footer: {
-                    Text("长按主屏幕 → 点左上角 + → 搜索 StockPulse，即可添加股价小组件。")
+                    Text("长按主屏幕 → 点 + → 搜索 StockPulse，添加小/中尺寸小组件。")
                 }
             }
             .scrollContentBackground(.hidden)

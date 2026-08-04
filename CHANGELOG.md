@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.93 - 2026-08-05 02:08
+- SettingsView: widget footer 文案优化
+
 ## v1.0.92 - 2026-08-05 02:08
 - ContentView: 自选 pill vertical padding 10 → 12
 

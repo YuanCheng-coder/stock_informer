@@ -1450,3 +1450,15 @@ GIT_PUSH_OK 1b08053fbfbc318c1d35774a88c2cf2ed1359493
 [02:08:16] --- iter #92: ContentView: 自选 pill vertical padding 10 → 12 ---
 [02:08:16]   [设计三问] 新特性: 留白与呼吸感 | 优雅: 视觉层级更舒展 | 亲肤: 加大触控区，手指操作更轻松
 [02:08:16]   [设计三问] 新特性: 留白与呼吸感 | 优雅: 视觉层级更舒展 | 亲肤: 加大触控区，手指操作更轻松
+[02:08:20] [main 1f79f80] iter #92: ContentView: 自选 pill vertical padding 10 → 12 [v1.0.92]
+ 7 files changed, 25 insertions(+), 3 deletions(-)
+GIT_PUSH_OK 1f79f8089bf4ce188161420762a4efb2e61dbebc
+[02:08:20] [main 1f79f80] iter #92: ContentView: 自选 pill vertical padding 10 → 12 [v1.0.92]
+ 7 files changed, 25 insertions(+), 3 deletions(-)
+GIT_PUSH_OK 1f79f8089bf4ce188161420762a4efb2e61dbebc
+[02:08:20]   OK pushed #92
+[02:08:20]   OK pushed #92
+[02:08:21] --- iter #93: SettingsView: widget footer 文案优化 ---
+[02:08:21]   [设计三问] 新特性: 桌面小组件视觉优化 | 优雅: 桌面一瞥即得关键信息 | 亲肤: 柔和背景色，不刺眼
+[02:08:21] --- iter #93: SettingsView: widget footer 文案优化 ---
+[02:08:21]   [设计三问] 新特性: 桌面小组件视觉优化 | 优雅: 桌面一瞥即得关键信息 | 亲肤: 柔和背景色，不刺眼
