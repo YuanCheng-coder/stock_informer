@@ -25,6 +25,7 @@ struct ContentView: View {
                     if let analysis = viewModel.analysis {
                         AnalysisCardView(analysis: analysis)
                             .padding(.horizontal)
+                            .accessibilityElement(children: .combine)
                     } else if !viewModel.isLoading {
                         VStack(spacing: 12) {
                             Image(systemName: "chart.line.uptrend.xyaxis")
