@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.83 - 2026-08-05 02:07
+- SettingsView: 自选股 symbol headline → subheadline semibold
+
 ## v1.0.82 - 2026-08-05 02:07
 - ContentView: alert 按钮改「知道了」
 

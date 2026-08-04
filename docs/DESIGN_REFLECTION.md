@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.83 — SettingsView: 自选股 symbol headline → subheadline semibold
+
+1. **新特性**：设置页体验优化
+2. **更优雅**：分组清晰、操作直观
+3. **更亲肤**：文案温和，减少认知负担
+
 ## v1.0.82 — ContentView: alert 按钮改「知道了」
 
 1. **新特性**：友好错误/提示交互

@@ -85,3 +85,4 @@
 | 80 | 2026-08-05 02:07 | Widget: 小尺寸 VStack spacing 6 → 8 |
 | 81 | 2026-08-05 02:07 | ContentView: 空态 headline foregroundStyle |
 | 82 | 2026-08-05 02:07 | ContentView: alert 按钮改「知道了」 |
+| 83 | 2026-08-05 02:07 | SettingsView: 自选股 symbol headline → subheadline semibold |

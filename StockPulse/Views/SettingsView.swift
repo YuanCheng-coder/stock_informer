@@ -46,7 +46,7 @@ struct SettingsView: View {
                         HStack {
                             VStack(alignment: .leading) {
                                 Text(item.symbol)
-                                    .font(.headline)
+                                    .font(.subheadline.weight(.semibold))
                                 if !item.displayName.isEmpty {
                                     Text(item.displayName)
                                         .font(.caption)
