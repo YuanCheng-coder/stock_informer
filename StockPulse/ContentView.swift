@@ -93,7 +93,7 @@ struct ContentView: View {
     }
 
     private var searchSection: some View {
-        HStack(spacing: 12) {
+        HStack(spacing: 10) {
             TextField("输入代码，如 AAPL、600519.SS", text: $searchSymbol)
                 .textFieldStyle(.roundedBorder)
                 .textInputAutocapitalization(.characters)

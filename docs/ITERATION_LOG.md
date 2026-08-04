@@ -92,3 +92,4 @@
 | 87 | 2026-08-05 02:07 | AppTheme: chartHeight + cardShadowOpacity 常量 |
 | 88 | 2026-08-05 02:07 | ContentView: 图表高度使用 AppTheme.chartHeight |
 | 89 | 2026-08-05 02:08 | Widget: configurationDisplayName 优化 |
+| 90 | 2026-08-05 02:08 | ContentView: 搜索 HStack spacing 12 → 10 |

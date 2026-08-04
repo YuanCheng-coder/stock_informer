@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.90 - 2026-08-05 02:08
+- ContentView: 搜索 HStack spacing 12 → 10
+
 ## v1.0.89 - 2026-08-05 02:08
 - Widget: configurationDisplayName 优化
 
