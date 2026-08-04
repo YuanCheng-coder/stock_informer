@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.15 - 2026-08-05 02:01
+- ContentView: 图表高度 120 → 132
+
 ## v1.0.14 - 2026-08-05 02:01
 - AnalysisCardView: 卡片阴影
 

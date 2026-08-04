@@ -16,7 +16,7 @@ struct ContentView: View {
                             prices: quote.prices,
                             lineColor: AppTheme.trendColor(isUp: quote.isUp)
                         )
-                        .frame(height: 120)
+                        .frame(height: 132)
                         .padding(.horizontal)
                     }
                     if let analysis = viewModel.analysis {
