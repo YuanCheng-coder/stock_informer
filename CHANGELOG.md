@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.18 - 2026-08-05 02:02
+- ContentView: 快捷自选 → Label 图标
+
 ## v1.0.17 - 2026-08-05 02:02
 - ContentView: 空态图标 accent 色
 

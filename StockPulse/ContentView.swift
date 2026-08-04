@@ -137,8 +137,9 @@ struct ContentView: View {
 
     private var watchlistSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("快捷自选")
+            Label("快捷自选", systemImage: "star.fill")
                 .font(.headline)
+                .foregroundStyle(AppTheme.accent)
                 .padding(.horizontal)
 
             ScrollView(.horizontal, showsIndicators: false) {
