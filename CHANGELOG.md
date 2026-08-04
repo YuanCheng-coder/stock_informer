@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.4 - 2026-08-05 01:50
+- ContentView: chart lineColor → AppTheme.trendColor
+
 ## v1.0.3 - 2026-08-05 01:50
 - ContentView: VStack spacing → AppTheme.sectionSpacing
 

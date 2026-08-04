@@ -14,7 +14,7 @@ struct ContentView: View {
                         quoteHeader(quote)
                         MiniChartView(
                             prices: quote.prices,
-                            lineColor: quote.isUp ? .green : .red
+                            lineColor: AppTheme.trendColor(isUp: quote.isUp)
                         )
                         .frame(height: 120)
                         .padding(.horizontal)
