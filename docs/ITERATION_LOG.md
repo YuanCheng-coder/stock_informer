@@ -81,3 +81,4 @@
 | 76 | 2026-08-05 02:07 | ContentView: 高低价 spacing 20 → 24 |
 | 77 | 2026-08-05 02:07 | AnalysisCardView: VStack spacing 12 → 14 |
 | 78 | 2026-08-05 02:07 | MiniChartView: 空态 frame center |
+| 79 | 2026-08-05 02:07 | Widget: 中尺寸 HStack spacing 12 → 14 |

@@ -97,7 +97,7 @@ struct StockPulseWidgetEntryView: View {
     }
 
     private var mediumView: some View {
-        HStack(spacing: 12) {
+        HStack(spacing: 14) {
             VStack(alignment: .leading, spacing: 6) {
                 Text(entry.quote?.symbol ?? "StockPulse")
                     .font(.headline)

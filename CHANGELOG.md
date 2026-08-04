@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.79 - 2026-08-05 02:07
+- Widget: 中尺寸 HStack spacing 12 → 14
+
 ## v1.0.78 - 2026-08-05 02:07
 - MiniChartView: 空态 frame center
 
