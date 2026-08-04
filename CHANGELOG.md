@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.11 - 2026-08-05 02:01
+- ContentView: 分析按钮 tint → AppTheme.accent
+
 ## v1.0.10 - 2026-08-05 01:55
 - ContentView: watchlist pill radius → AppTheme.pillRadius
 

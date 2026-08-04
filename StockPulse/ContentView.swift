@@ -92,6 +92,7 @@ struct ContentView: View {
 
             Button("分析") { submitSearch() }
                 .buttonStyle(.borderedProminent)
+                .tint(AppTheme.accent)
                 .disabled(searchSymbol.isEmpty && viewModel.selectedSymbol.isEmpty)
         }
         .padding(.horizontal)
