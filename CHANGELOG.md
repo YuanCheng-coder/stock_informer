@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.99 - 2026-08-05 02:08
+- ContentView: 自选选中 opacity 使用 AppTheme 常量
+
 ## v1.0.98 - 2026-08-05 02:08
 - AppTheme: watchlistSelectedOpacity 常量
 

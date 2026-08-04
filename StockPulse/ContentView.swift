@@ -185,7 +185,7 @@ struct ContentView: View {
                             .padding(.vertical, 12)
                             .background(
                                 viewModel.selectedSymbol == item.symbol
-                                    ? AppTheme.accent.opacity(0.18)
+                                    ? AppTheme.accent.opacity(AppTheme.watchlistSelectedOpacity)
                                     : Color(.tertiarySystemFill),
                                 in: RoundedRectangle(cornerRadius: AppTheme.pillRadius)
                             )

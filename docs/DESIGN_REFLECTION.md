@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.99 — ContentView: 自选选中 opacity 使用 AppTheme 常量
+
+1. **新特性**：设计系统常量扩展
+2. **更优雅**：全局色彩/间距一致
+3. **更亲肤**：柔和配色，深浅模式都舒适
+
 ## v1.0.98 — AppTheme: watchlistSelectedOpacity 常量
 
 1. **新特性**：设计系统常量扩展
