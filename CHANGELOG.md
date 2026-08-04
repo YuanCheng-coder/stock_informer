@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.29 - 2026-08-05 02:03
+- ContentView: 涨跌箭头 accessibility
+
 ## v1.0.28 - 2026-08-05 02:03
 - ContentView: 股票名称 title2
 

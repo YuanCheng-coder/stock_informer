@@ -121,6 +121,7 @@ struct ContentView: View {
 
             HStack(spacing: 8) {
                 Image(systemName: quote.isUp ? "arrow.up.right" : "arrow.down.right")
+                    .accessibilityHidden(true)
                 Text("\(quote.isUp ? "+" : "")\(String(format: "%.2f", quote.change))")
                 Text("(\(quote.isUp ? "+" : "")\(String(format: "%.2f%%", quote.changePercent)))")
             }
