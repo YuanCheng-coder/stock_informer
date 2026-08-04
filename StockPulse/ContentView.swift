@@ -59,7 +59,7 @@ struct ContentView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        Task { await viewModel.refresh() }
+                        Task { lightHaptic(); await viewModel.refresh() }
                     } label: {
                         if viewModel.isLoading {
                             ProgressView()
