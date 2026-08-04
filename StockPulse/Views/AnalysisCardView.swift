@@ -16,7 +16,8 @@ struct AnalysisCardView: View {
             }
 
             Text(analysis.summary)
-                .font(.body)
+                .font(.callout)
+                .lineSpacing(3)
                 .foregroundStyle(.primary)
                 .fixedSize(horizontal: false, vertical: true)
 
