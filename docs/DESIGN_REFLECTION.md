@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.94 — MiniChartView: 默认 lineColor → AppTheme.bullish
+
+1. **新特性**：走势图表美学提升
+2. **更优雅**：线条圆润、留白舒适
+3. **更亲肤**：淡色背景，长时间看不疲劳
+
 ## v1.0.93 — SettingsView: widget footer 文案优化
 
 1. **新特性**：桌面小组件视觉优化

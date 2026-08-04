@@ -96,3 +96,4 @@
 | 91 | 2026-08-05 02:08 | AnalysisCardView: trend Label subheadline → callout |
 | 92 | 2026-08-05 02:08 | ContentView: 自选 pill vertical padding 10 → 12 |
 | 93 | 2026-08-05 02:08 | SettingsView: widget footer 文案优化 |
+| 94 | 2026-08-05 02:08 | MiniChartView: 默认 lineColor → AppTheme.bullish |

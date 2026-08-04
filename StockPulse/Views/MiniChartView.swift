@@ -2,7 +2,7 @@ import SwiftUI
 
 struct MiniChartView: View {
     let prices: [Double]
-    var lineColor: Color = .green
+    var lineColor: Color = AppTheme.bullish
 
     var body: some View {
         GeometryReader { geo in

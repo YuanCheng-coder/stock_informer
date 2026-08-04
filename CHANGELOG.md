@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.94 - 2026-08-05 02:08
+- MiniChartView: 默认 lineColor → AppTheme.bullish
+
 ## v1.0.93 - 2026-08-05 02:08
 - SettingsView: widget footer 文案优化
 
