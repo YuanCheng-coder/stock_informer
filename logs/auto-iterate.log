@@ -1474,3 +1474,15 @@ GIT_PUSH_OK d8805c1c596e439fd32889be116f1ff01c2c57b8
 [02:08:25] --- iter #94: MiniChartView: 默认 lineColor → AppTheme.bullish ---
 [02:08:25]   [设计三问] 新特性: 走势图表美学提升 | 优雅: 线条圆润、留白舒适 | 亲肤: 淡色背景，长时间看不疲劳
 [02:08:25]   [设计三问] 新特性: 走势图表美学提升 | 优雅: 线条圆润、留白舒适 | 亲肤: 淡色背景，长时间看不疲劳
+[02:08:28] [main a28bb4e] iter #94: MiniChartView: 默认 lineColor → AppTheme.bullish [v1.0.94]
+ 7 files changed, 25 insertions(+), 3 deletions(-)
+GIT_PUSH_OK a28bb4ec5f61f979f7816fc579ee2a176130c21e
+[02:08:28] [main a28bb4e] iter #94: MiniChartView: 默认 lineColor → AppTheme.bullish [v1.0.94]
+ 7 files changed, 25 insertions(+), 3 deletions(-)
+GIT_PUSH_OK a28bb4ec5f61f979f7816fc579ee2a176130c21e
+[02:08:28]   OK pushed #94
+[02:08:28]   OK pushed #94
+[02:08:29] --- iter #95: ContentView: navigationTitle 改 StockPulse 📊 ---
+[02:08:29] --- iter #95: ContentView: navigationTitle 改 StockPulse 📊 ---
+[02:08:29]   [设计三问] 新特性: 界面细节持续打磨 | 优雅: 统一 AppTheme 设计语言 | 亲肤: 圆角卡片、柔和配色，长时间使用不疲劳
+[02:08:29]   [设计三问] 新特性: 界面细节持续打磨 | 优雅: 统一 AppTheme 设计语言 | 亲肤: 圆角卡片、柔和配色，长时间使用不疲劳

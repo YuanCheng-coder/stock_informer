@@ -51,7 +51,7 @@ struct ContentView: View {
             .refreshable {
                 await viewModel.refresh()
             }
-            .navigationTitle("StockPulse")
+            .navigationTitle("StockPulse 📊")
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {

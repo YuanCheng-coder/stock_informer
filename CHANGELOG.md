@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.95 - 2026-08-05 02:08
+- ContentView: navigationTitle 改 StockPulse 📊
+
 ## v1.0.94 - 2026-08-05 02:08
 - MiniChartView: 默认 lineColor → AppTheme.bullish
 
