@@ -76,7 +76,7 @@ struct StockPulseWidgetEntryView: View {
                     .monospacedDigit()
                 Text("\(quote.isUp ? "+" : "")\(String(format: "%.2f%%", quote.changePercent))")
                     .font(.caption.weight(.medium))
-                    .foregroundStyle(quote.isUp ? .green : .red)
+                    .foregroundStyle(AppTheme.trendColor(isUp: quote.isUp))
             } else {
                 Text("打开 App 刷新")
                     .font(.caption)

@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.41 - 2026-08-05 02:04
+- Widget: 小尺寸涨跌色 → AppTheme
+
 ## v1.0.40 - 2026-08-05 02:04
 - SettingsView: 间隔选项加 5 分钟
 
