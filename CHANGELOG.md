@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.13 - 2026-08-05 02:01
+- AnalysisCardView: 内边距 16pt
+
 ## v1.0.12 - 2026-08-05 02:01
 - AnalysisCardView: 走势分析标题 accent 色
 

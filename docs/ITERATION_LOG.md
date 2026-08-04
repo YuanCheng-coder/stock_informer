@@ -15,3 +15,4 @@
 | 10 | 2026-08-05 01:55 | ContentView: watchlist pill radius → AppTheme.pillRadius |
 | 11 | 2026-08-05 02:01 | ContentView: 分析按钮 tint → AppTheme.accent |
 | 12 | 2026-08-05 02:01 | AnalysisCardView: 走势分析标题 accent 色 |
+| 13 | 2026-08-05 02:01 | AnalysisCardView: 内边距 16pt |

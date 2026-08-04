@@ -48,7 +48,7 @@ struct AnalysisCardView: View {
                 .font(.caption2)
                 .foregroundStyle(.secondary)
         }
-        .padding()
+        .padding(16)
         .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: AppTheme.cardRadius))
     }
 
