@@ -433,10 +433,10 @@ UX_IMPROVEMENTS = [
      'VStack(alignment: .leading, spacing: 12) {\n            Label("快捷自选"',
      'VStack(alignment: .leading, spacing: 14) {\n            Label("快捷自选"'),
 
-    (87, 'AppTheme: chartHeight 常量',
+    (87, 'AppTheme: chartHeight + cardShadowOpacity 常量',
      'StockPulse/Theme/AppTheme.swift',
-     'static let cardShadowOpacity: Double = 0.06',
-     'static let cardShadowOpacity: Double = 0.06\n    static let chartHeight: CGFloat = 132'),
+     'static let sectionSpacing: CGFloat = 18',
+     'static let sectionSpacing: CGFloat = 18\n    static let chartHeight: CGFloat = 132\n    static let cardShadowOpacity: Double = 0.06'),
 
     (88, 'ContentView: 图表高度使用 AppTheme.chartHeight',
      'StockPulse/ContentView.swift',

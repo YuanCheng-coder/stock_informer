@@ -11,3 +11,7 @@ xcuserdata/
 # Swift Package Manager
 .build/
 Packages/
+
+# Python
+__pycache__/
+*.pyc

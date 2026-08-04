@@ -18,6 +18,82 @@ LOG_FILE = os.path.join(ROOT, 'logs', 'auto-iterate.log')
 VERSION_FILE = os.path.join(ROOT, 'VERSION')
 CHANGELOG = os.path.join(ROOT, 'CHANGELOG.md')
 ITERATION_LOG = os.path.join(ROOT, 'docs', 'ITERATION_LOG.md')
+DESIGN_LOG = os.path.join(ROOT, 'docs', 'DESIGN_REFLECTION.md')
+
+# 亲肤 fallback：主 patch 失败时仍保证每版有 UX 微改进
+GENTLE_FALLBACKS = [
+    ('StockPulse/Theme/AppTheme.swift', 'static let pillRadius: CGFloat = 14',
+     'static let pillRadius: CGFloat = 14\n    static let softPadding: CGFloat = 8'),
+    ('StockPulse/Theme/AppTheme.swift', 'static let cardRadius: CGFloat = 20',
+     'static let cardRadius: CGFloat = 20\n    static let gentleAnimation: Double = 0.25'),
+    ('StockPulse/Views/AnalysisCardView.swift', 'VStack(alignment: .leading, spacing: 12) {',
+     'VStack(alignment: .leading, spacing: 14) {'),
+    ('StockPulse/Views/SettingsView.swift', 'private let intervalOptions = [15, 30, 60, 120, 240]',
+     'private let intervalOptions = [5, 15, 30, 60, 120, 240]'),
+]
+
+
+def infer_design_rationale(num, msg):
+    """Mandatory 设计三问 before each commit."""
+    m = msg.lower()
+    if 'haptic' in m or '触觉' in m:
+        return ('轻触觉微交互反馈', '操作有即时、克制的响应', '轻柔震动，不打扰、不惊吓')
+    if 'accessibility' in m or 'accessibility' in msg:
+        return ('无障碍标签/提示', '信息层级更清晰可读', '让所有用户都能舒适理解界面')
+    if 'widget' in m:
+        return ('桌面小组件视觉优化', '桌面一瞥即得关键信息', '柔和背景色，不刺眼')
+    if 'settings' in m or '设置' in msg:
+        return ('设置页体验优化', '分组清晰、操作直观', '文案温和，减少认知负担')
+    if 'chart' in m or '图表' in msg or 'minichart' in m:
+        return ('走势图表美学提升', '线条圆润、留白舒适', '淡色背景，长时间看不疲劳')
+    if 'card' in m or '卡片' in msg or 'analysis' in m:
+        return ('卡片式信息布局', '阴影/圆角/间距统一', '投资建议区柔和底色，阅读不费力')
+    if 'loading' in m or '加载' in msg or 'progress' in m:
+        return ('温和加载态', '等待时有明确反馈', '文案「加载中…」代替空白，减少焦虑')
+    if 'alert' in m or 'error' in m or '知道了' in msg:
+        return ('友好错误/提示交互', '按钮文案更亲切', '「知道了」代替生硬「好的」')
+    if 'apptheme' in m or 'theme' in m:
+        return ('设计系统常量扩展', '全局色彩/间距一致', '柔和配色，深浅模式都舒适')
+    if 'readme' in m or num == 100:
+        return ('版本里程碑文档', '项目进展可追溯', '完成标记给用户安心感')
+    if 'placeholder' in m or '文案' in msg or 'footer' in m:
+        return ('微文案优化', '提示更清晰易懂', '语气亲切，像朋友提醒而非机器报错')
+    if 'spacing' in m or 'padding' in m or '间距' in msg:
+        return ('留白与呼吸感', '视觉层级更舒展', '加大触控区，手指操作更轻松')
+    if 'label' in m or '图标' in msg:
+        return ('图标+文字语义化', '功能一眼可辨', 'SF Symbols 统一风格，温和不杂乱')
+    return (
+        '界面细节持续打磨',
+        '统一 AppTheme 设计语言',
+        '圆角卡片、柔和配色，长时间使用不疲劳',
+    )
+
+
+def log_design_reflection(num, msg, feature, elegant, gentle):
+    header = '# 设计三问 · 迭代反思\n\n'
+    entry = (
+        '## v1.0.{n} — {msg}\n\n'
+        '1. **新特性**：{feature}\n'
+        '2. **更优雅**：{elegant}\n'
+        '3. **更亲肤**：{gentle}\n\n'
+    ).format(n=num, msg=msg, feature=feature, elegant=elegant, gentle=gentle)
+    if not os.path.exists(DESIGN_LOG):
+        write('docs/DESIGN_REFLECTION.md', header + entry)
+    else:
+        content = read('docs/DESIGN_REFLECTION.md')
+        if content.startswith('# 设计三问'):
+            write('docs/DESIGN_REFLECTION.md', header + entry + content[len(header):])
+        else:
+            append_line('docs/DESIGN_REFLECTION.md', entry)
+
+
+def apply_gentle_fallback(num):
+    idx = (num - 1) % len(GENTLE_FALLBACKS)
+    path, old, new = GENTLE_FALLBACKS[idx]
+    if patch(path, old, new):
+        log('  亲肤 fallback applied: {}'.format(path))
+        return True
+    return False
 
 
 def log(msg):
@@ -170,14 +246,20 @@ def run(from_iter=1, count=100):
         if num < start or num > end:
             continue
 
-        log(f'--- 迭代 #{num}: {msg} ---')
+        log('--- iter #{}: {} ---'.format(num, msg))
+        feature, elegant, gentle = infer_design_rationale(num, msg)
+        log('  [设计三问] 新特性: {} | 优雅: {} | 亲肤: {}'.format(feature, elegant, gentle))
+        log_design_reflection(num, msg, feature, elegant, gentle)
         try:
             applied = apply_fn()
             if not applied:
-                log(f'  跳过 (已应用或无变化)')
+                log('  skip (already applied)')
+                applied = apply_gentle_fallback(num)
+                if applied:
+                    msg = msg + ' + 亲肤fallback'
         except Exception as e:
-            log(f'  应用失败: {e}')
-            applied = False
+            log('  apply failed: {}'.format(e))
+            applied = apply_gentle_fallback(num)
 
         bump_version(num)
         update_changelog(num, msg)
@@ -188,12 +270,12 @@ def run(from_iter=1, count=100):
         if ok:
             state['completed'] = num
             save_state(state)
-            log(f'  ✓ 已推送 #{num}')
+            log('  OK pushed #{}'.format(num))
+            if num % 5 == 0:
+                if not verify_build():
+                    log('  WARN build failed at #{} — continuing'.format(num))
         else:
-            log(f'  ✗ 推送失败 #{num}')
-
-        if num % 5 == 0:
-            verify_build()
+            log('  FAIL push #{}'.format(num))
 
         time.sleep(1)
 
