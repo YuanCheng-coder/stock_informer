@@ -105,6 +105,10 @@ struct ContentView: View {
         }
     }
 
+    private func lightHaptic() {
+        UIImpactFeedbackGenerator(style: .light).impactOccurred()
+    }
+
     private func submitSearch() {
         let symbol = searchSymbol.isEmpty ? viewModel.selectedSymbol : searchSymbol
         viewModel.selectSymbol(symbol)
