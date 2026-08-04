@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.98 - 2026-08-05 02:08
+- AppTheme: watchlistSelectedOpacity 常量
+
 ## v1.0.97 - 2026-08-05 02:08
 - ContentView: 加载态 ProgressView
 

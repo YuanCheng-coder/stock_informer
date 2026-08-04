@@ -100,3 +100,4 @@
 | 95 | 2026-08-05 02:08 | ContentView: navigationTitle 改 StockPulse 📊 |
 | 96 | 2026-08-05 02:08 | Widget: 中尺寸 Label 图标色 accent |
 | 97 | 2026-08-05 02:08 | ContentView: 加载态 ProgressView |
+| 98 | 2026-08-05 02:08 | AppTheme: watchlistSelectedOpacity 常量 |

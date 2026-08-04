@@ -1530,3 +1530,15 @@ GIT_PUSH_OK 44b7cbe35e0382c4f18ade44698c54404a7a10e1
 [02:08:38] --- iter #97: ContentView: 加载态 ProgressView ---
 [02:08:38]   [设计三问] 新特性: 温和加载态 | 优雅: 等待时有明确反馈 | 亲肤: 文案「加载中…」代替空白，减少焦虑
 [02:08:38]   [设计三问] 新特性: 温和加载态 | 优雅: 等待时有明确反馈 | 亲肤: 文案「加载中…」代替空白，减少焦虑
+[02:08:41] [main 5c89977] iter #97: ContentView: 加载态 ProgressView [v1.0.97]
+ 7 files changed, 28 insertions(+), 2 deletions(-)
+GIT_PUSH_OK 5c8997773ea736fbbfd557970e4f75ef02bc40ff
+[02:08:41] [main 5c89977] iter #97: ContentView: 加载态 ProgressView [v1.0.97]
+ 7 files changed, 28 insertions(+), 2 deletions(-)
+GIT_PUSH_OK 5c8997773ea736fbbfd557970e4f75ef02bc40ff
+[02:08:41]   OK pushed #97
+[02:08:41]   OK pushed #97
+[02:08:42] --- iter #98: AppTheme: watchlistSelectedOpacity 常量 ---
+[02:08:42] --- iter #98: AppTheme: watchlistSelectedOpacity 常量 ---
+[02:08:42]   [设计三问] 新特性: 设计系统常量扩展 | 优雅: 全局色彩/间距一致 | 亲肤: 柔和配色，深浅模式都舒适
+[02:08:42]   [设计三问] 新特性: 设计系统常量扩展 | 优雅: 全局色彩/间距一致 | 亲肤: 柔和配色，深浅模式都舒适

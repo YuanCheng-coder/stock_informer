@@ -9,6 +9,7 @@ enum AppTheme {
     static let pillRadius: CGFloat = 14
     static let sectionSpacing: CGFloat = 18
     static let chartHeight: CGFloat = 132
+    static let watchlistSelectedOpacity: Double = 0.18
     static let cardShadowOpacity: Double = 0.06
     static let cardShadowOpacity: Double = 0.06
 
