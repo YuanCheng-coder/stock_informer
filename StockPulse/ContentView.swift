@@ -134,7 +134,7 @@ struct ContentView: View {
                 .monospacedDigit()
                 .accessibilityLabel("当前价格 \(formatPrice(quote.price))")
 
-            HStack(spacing: 8) {
+            HStack(spacing: 6) {
                 Image(systemName: quote.isUp ? "arrow.up.right" : "arrow.down.right")
                     .accessibilityHidden(true)
                 Text("\(quote.isUp ? "+" : "")\(String(format: "%.2f", quote.change))")

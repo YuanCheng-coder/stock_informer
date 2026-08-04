@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.75 - 2026-08-05 02:06
+- ContentView: 涨跌 HStack spacing 8 → 6
+
 ## v1.0.74 - 2026-08-05 02:06
 - ContentView: 分析按钮 → Label 图标
 

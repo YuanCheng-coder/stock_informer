@@ -77,3 +77,4 @@
 | 72 | 2026-08-05 02:06 | ContentView: 搜索区 horizontal padding 16 |
 | 73 | 2026-08-05 02:06 | ContentView: watchlist 间距 10 → 8 |
 | 74 | 2026-08-05 02:06 | ContentView: 分析按钮 → Label 图标 |
+| 75 | 2026-08-05 02:06 | ContentView: 涨跌 HStack spacing 8 → 6 |
