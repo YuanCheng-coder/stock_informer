@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.89 - 2026-08-05 02:08
+- Widget: configurationDisplayName 优化
+
 ## v1.0.88 - 2026-08-05 02:07
 - ContentView: 图表高度使用 AppTheme.chartHeight
 

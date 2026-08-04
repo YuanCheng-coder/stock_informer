@@ -139,7 +139,7 @@ struct StockPulseWidget: Widget {
                 .padding(12)
                 .background(Color(.secondarySystemBackground))
         }
-        .configurationDisplayName("StockPulse")
+        .configurationDisplayName("StockPulse 股价")
         .description("桌面随时查看股价走势与投资简报。")
         .supportedFamilies([.systemSmall, .systemMedium])
     }
