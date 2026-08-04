@@ -179,7 +179,7 @@ struct ContentView: View {
                             .background(
                                 viewModel.selectedSymbol == item.symbol
                                     ? AppTheme.accent.opacity(0.18)
-                                    : Color.gray.opacity(0.12),
+                                    : Color(.tertiarySystemFill),
                                 in: RoundedRectangle(cornerRadius: AppTheme.pillRadius)
                             )
                         }

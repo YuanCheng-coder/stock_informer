@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.67 - 2026-08-05 02:06
+- ContentView: 未选中自选 pill 背景 semantic
+
 ## v1.0.66 - 2026-08-05 02:06
 - ContentView: ScrollView 背景 grouped
 
