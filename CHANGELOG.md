@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.10 - 2026-08-05 01:55
+- ContentView: watchlist pill radius → AppTheme.pillRadius
+
 ## v1.0.9 - 2026-08-05 01:55
 - ContentView: watchlist selected tint → AppTheme.accent
 

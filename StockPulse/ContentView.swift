@@ -160,7 +160,7 @@ struct ContentView: View {
                                 viewModel.selectedSymbol == item.symbol
                                     ? AppTheme.accent.opacity(0.18)
                                     : Color.gray.opacity(0.12),
-                                in: RoundedRectangle(cornerRadius: 12)
+                                in: RoundedRectangle(cornerRadius: AppTheme.pillRadius)
                             )
                         }
                         .buttonStyle(.plain)
