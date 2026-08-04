@@ -40,6 +40,7 @@ struct ContentView: View {
                         }
                         .padding(.top, 40)
                         .padding(.horizontal)
+                        .accessibilityElement(children: .combine)
                     }
                     watchlistSection
                 }
