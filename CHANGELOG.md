@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.32 - 2026-08-05 02:03
+- SettingsView: 定时开关 Label 图标
+
 ## v1.0.31 - 2026-08-05 02:03
 - SettingsView: checkmark → AppTheme.accent
 

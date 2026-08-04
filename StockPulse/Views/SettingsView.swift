@@ -10,7 +10,9 @@ struct SettingsView: View {
         NavigationStack {
             Form {
                 Section {
-                    Toggle("定时股价分析", isOn: $viewModel.periodicAnalysisEnabled)
+                    Toggle(isOn: $viewModel.periodicAnalysisEnabled) {
+                        Label("定时股价分析", systemImage: "bell.badge")
+                    }
                         .onChange(of: viewModel.periodicAnalysisEnabled) { enabled in
                             if enabled {
                                 Task { await viewModel.enablePeriodicAnalysis() }
