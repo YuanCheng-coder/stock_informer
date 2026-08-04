@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.87 — AppTheme: chartHeight + cardShadowOpacity 常量
+
+1. **新特性**：走势图表美学提升
+2. **更优雅**：线条圆润、留白舒适
+3. **更亲肤**：淡色背景，长时间看不疲劳
+
 ## v1.0.86 — ContentView: watchlistSection spacing 12 → 14
 
 1. **新特性**：留白与呼吸感
