@@ -8,6 +8,7 @@ struct AnalysisCardView: View {
             HStack {
                 Text("走势分析")
                     .font(.headline)
+                    .foregroundStyle(AppTheme.accent)
                 Spacer()
                 Label(analysis.trend.rawValue, systemImage: trendIcon)
                     .font(.subheadline.weight(.semibold))

@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.12 - 2026-08-05 02:01
+- AnalysisCardView: 走势分析标题 accent 色
+
 ## v1.0.11 - 2026-08-05 02:01
 - ContentView: 分析按钮 tint → AppTheme.accent
 
