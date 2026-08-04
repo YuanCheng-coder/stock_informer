@@ -7,3 +7,4 @@
 | 2 | 2026-08-05 01:44 | 添加 CHANGELOG 初始化 |
 | 3 | 2026-08-05 01:50 | ContentView: VStack spacing → AppTheme.sectionSpacing |
 | 4 | 2026-08-05 01:50 | ContentView: chart lineColor → AppTheme.trendColor |
+| 5 | 2026-08-05 01:52 | ContentView: quote header colors → AppTheme.trendColor |

@@ -121,7 +121,7 @@ struct ContentView: View {
                 Text("(\(quote.isUp ? "+" : "")\(String(format: "%.2f%%", quote.changePercent)))")
             }
             .font(.headline)
-            .foregroundStyle(quote.isUp ? .green : .red)
+            .foregroundStyle(AppTheme.trendColor(isUp: quote.isUp))
 
             HStack(spacing: 20) {
                 labelValue("最高", formatPrice(quote.dayHigh))
