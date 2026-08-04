@@ -78,3 +78,4 @@
 | 73 | 2026-08-05 02:06 | ContentView: watchlist 间距 10 → 8 |
 | 74 | 2026-08-05 02:06 | ContentView: 分析按钮 → Label 图标 |
 | 75 | 2026-08-05 02:06 | ContentView: 涨跌 HStack spacing 8 → 6 |
+| 76 | 2026-08-05 02:07 | ContentView: 高低价 spacing 20 → 24 |

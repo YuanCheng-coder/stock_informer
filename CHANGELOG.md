@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.76 - 2026-08-05 02:07
+- ContentView: 高低价 spacing 20 → 24
+
 ## v1.0.75 - 2026-08-05 02:06
 - ContentView: 涨跌 HStack spacing 8 → 6
 

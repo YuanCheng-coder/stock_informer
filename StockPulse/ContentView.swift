@@ -143,7 +143,7 @@ struct ContentView: View {
             .font(.headline)
             .foregroundStyle(AppTheme.trendColor(isUp: quote.isUp))
 
-            HStack(spacing: 20) {
+            HStack(spacing: 24) {
                 labelValue("最高", formatPrice(quote.dayHigh))
                 labelValue("最低", formatPrice(quote.dayLow))
             }
