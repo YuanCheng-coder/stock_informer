@@ -82,7 +82,9 @@ struct SettingsView: View {
                 }
 
                 Section {
-                    Link("在桌面添加小组件", destination: URL(string: "https://support.apple.com/guide/iphone/add-widgets-iphb8f1bf206/ios")!)
+                    Link(destination: URL(string: "https://support.apple.com/guide/iphone/add-widgets-iphb8f1bf206/ios")!) {
+                        Label("在桌面添加小组件", systemImage: "square.grid.2x2")
+                    }
                 } footer: {
                     Text("长按主屏幕 → 点左上角 + → 搜索 StockPulse，即可添加股价小组件。")
                 }

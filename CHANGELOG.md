@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.36 - 2026-08-05 02:04
+- SettingsView: 小组件 Link Label 图标
+
 ## v1.0.35 - 2026-08-05 02:04
 - SettingsView: 添加按钮 accent tint
 
