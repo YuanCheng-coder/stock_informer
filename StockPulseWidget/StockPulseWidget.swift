@@ -19,7 +19,7 @@ struct StockPulseProvider: TimelineProvider {
     func getTimeline(in context: Context, completion: @escaping (Timeline<StockPulseEntry>) -> Void) {
         Task {
             let entry = await fetchEntry()
-            let nextUpdate = Calendar.current.date(byAdding: .minute, value: 15, to: Date()) ?? Date().addingTimeInterval(900)
+            let nextUpdate = Calendar.current.date(byAdding: .minute, value: 10, to: Date()) ?? Date().addingTimeInterval(900)
             completion(Timeline(entries: [entry], policy: .after(nextUpdate)))
         }
     }
