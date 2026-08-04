@@ -55,6 +55,7 @@ struct ContentView: View {
                         showSettings = true
                     } label: {
                         Image(systemName: "gearshape")
+                            .accessibilityLabel("设置")
                     }
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
