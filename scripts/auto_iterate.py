@@ -20,23 +20,28 @@ ITERATION_LOG = os.path.join(ROOT, 'docs', 'ITERATION_LOG.md')
 
 
 def log(msg):
-    line = f"[{datetime.now().strftime('%H:%M:%S')}] {msg}"
-    print(line, flush=True)
+    line = "[{}] {}".format(datetime.now().strftime('%H:%M:%S'), msg)
     os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
-    with open(LOG_FILE, 'a') as f:
-        f.write(line + '\n')
+    with open(LOG_FILE, 'ab') as f:
+        f.write((line + '\n').encode('utf-8'))
+    try:
+        sys.stdout.write(line + '\n')
+        sys.stdout.flush()
+    except Exception:
+        pass
 
 
 def read(path):
-    with open(os.path.join(ROOT, path), 'r') as f:
-        return f.read()
+    full = os.path.join(ROOT, path)
+    with open(full, 'rb') as f:
+        return f.read().decode('utf-8')
 
 
 def write(path, content):
     full = os.path.join(ROOT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
-    with open(full, 'w') as f:
-        f.write(content)
+    with open(full, 'wb') as f:
+        f.write(content.encode('utf-8'))
 
 
 def patch(path, old, new):
@@ -58,7 +63,7 @@ def append_line(path, line):
 def push(message):
     result = subprocess.run(
         [sys.executable, os.path.join(ROOT, 'scripts', 'github_push.py'), message],
-        cwd=ROOT, capture_output=True, text=True,
+        cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True,
     )
     out = (result.stdout or '') + (result.stderr or '')
     log(out.strip())
@@ -67,14 +72,14 @@ def push(message):
 
 def load_state():
     if os.path.exists(STATE_FILE):
-        with open(STATE_FILE) as f:
-            return json.load(f)
+        with open(STATE_FILE, 'rb') as f:
+            return json.loads(f.read().decode('utf-8'))
     return {'completed': 0, 'total': 100}
 
 
 def save_state(state):
-    with open(STATE_FILE, 'w') as f:
-        json.dump(state, f, indent=2)
+    with open(STATE_FILE, 'wb') as f:
+        f.write(json.dumps(state, indent=2).encode('utf-8'))
 
 
 def bump_version(build):
@@ -83,7 +88,7 @@ def bump_version(build):
 
 def update_changelog(n, msg):
     header = '# Changelog\n\n'
-    entry = f'## v1.0.{n} — {datetime.now().strftime("%Y-%m-%d %H:%M")}\n- {msg}\n\n'
+    entry = '## v1.0.{} - {}\n- {}\n\n'.format(n, datetime.now().strftime("%Y-%m-%d %H:%M"), msg)
     if os.path.exists(CHANGELOG):
         content = read('CHANGELOG.md')
         if content.startswith('# Changelog'):

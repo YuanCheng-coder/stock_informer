@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "scripts/auto_iterate.py", line 456, in <module>
+    run(from_arg, count_arg)
+  File "scripts/auto_iterate.py", line 411, in run
+    log(f'=== \u81ea\u52a8\u8fed\u4ee3\u542f\u52a8: #{start} \u2192 #{end} ===')
+  File "scripts/auto_iterate.py", line 24, in log
+    print(line, flush=True)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 15-20: ordinal not in range(128)
+[01:39:11] === 自动迭代启动: #1 → #100 ===
+Traceback (most recent call last):
+  File "scripts/auto_iterate.py", line 456, in <module>
+    run(from_arg, count_arg)
+  File "scripts/auto_iterate.py", line 411, in run
+    log(f'=== 自动迭代启动: #{start} → #{end} ===')
+  File "scripts/auto_iterate.py", line 27, in log
+    f.write(line + '\n')
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 15-20: ordinal not in range(128)
+[01:39:32] === 自动迭代启动: #1 → #100 ===
+[01:39:32] --- 迭代 #1: 添加版本追踪文件 VERSION ---
+Traceback (most recent call last):
+  File "scripts/auto_iterate.py", line 460, in <module>
+    run(from_arg, count_arg)
+  File "scripts/auto_iterate.py", line 431, in run
+    update_changelog(num, msg)
+  File "scripts/auto_iterate.py", line 98, in update_changelog
+    write('CHANGELOG.md', header + entry)
+  File "scripts/auto_iterate.py", line 43, in write
+    f.write(content)
+UnicodeEncodeError: 'ascii' codec can't encode character '\u2014' in position 23: ordinal not in range(128)
+[01:40:01] === 自动迭代启动: #1 → #100 ===
+[01:40:01] --- 迭代 #1: 添加版本追踪文件 VERSION ---
+Traceback (most recent call last):
+  File "scripts/auto_iterate.py", line 461, in <module>
+    run(from_arg, count_arg)
+  File "scripts/auto_iterate.py", line 436, in run
+    ok = push(commit_msg)
+  File "scripts/auto_iterate.py", line 66, in push
+    cwd=ROOT, capture_output=True, text=True,
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/subprocess.py", line 403, in run
+    with Popen(*popenargs, **kwargs) as process:
+TypeError: __init__() got an unexpected keyword argument 'capture_output'
+[01:40:55] === 自动迭代启动: #1 → #100 ===
+[01:40:55] === 自动迭代启动: #1 → #100 ===
+[01:40:55] --- 迭代 #1: 添加版本追踪文件 VERSION ---
+[01:40:55] --- 迭代 #1: 添加版本追踪文件 VERSION ---
