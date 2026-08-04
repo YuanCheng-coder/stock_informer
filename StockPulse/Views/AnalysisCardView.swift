@@ -50,6 +50,7 @@ struct AnalysisCardView: View {
             }
 
             Text("更新于 \(analysis.generatedAt.formatted(date: .omitted, time: .shortened))")
+                .accessibilityLabel("分析更新于 \(analysis.generatedAt.formatted(date: .omitted, time: .shortened))")
                 .font(.caption2)
                 .foregroundStyle(.secondary)
         }

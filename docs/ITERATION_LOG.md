@@ -67,3 +67,4 @@
 | 62 | 2026-08-05 02:06 | SettingsView: 定时开关 accessibilityHint |
 | 63 | 2026-08-05 02:06 | Widget: 小尺寸 accessibility 组合 |
 | 64 | 2026-08-05 02:06 | ContentView: 自选按钮 accessibilityLabel |
+| 65 | 2026-08-05 02:06 | AnalysisCardView: 更新时间 accessibility |

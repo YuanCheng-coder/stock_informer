@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.65 - 2026-08-05 02:06
+- AnalysisCardView: 更新时间 accessibility
+
 ## v1.0.64 - 2026-08-05 02:06
 - ContentView: 自选按钮 accessibilityLabel
 

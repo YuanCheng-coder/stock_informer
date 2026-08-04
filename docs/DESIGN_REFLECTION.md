@@ -1,5 +1,11 @@
 # 设计三问 · 迭代反思
 
+## v1.0.65 — AnalysisCardView: 更新时间 accessibility
+
+1. **新特性**：无障碍标签/提示
+2. **更优雅**：信息层级更清晰可读
+3. **更亲肤**：让所有用户都能舒适理解界面
+
 ## v1.0.64 — ContentView: 自选按钮 accessibilityLabel
 
 1. **新特性**：无障碍标签/提示
