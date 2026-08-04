@@ -69,6 +69,7 @@ struct SettingsView: View {
 
                     HStack {
                         TextField("添加代码，如 NVDA", text: $newSymbol)
+                            .textFieldStyle(.roundedBorder)
                             .textInputAutocapitalization(.characters)
                             .autocorrectionDisabled()
                         Button("添加") {

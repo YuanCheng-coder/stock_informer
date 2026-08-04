@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.39 - 2026-08-05 02:04
+- SettingsView: TextField 圆角边框样式
+
 ## v1.0.38 - 2026-08-05 02:04
 - SettingsView: 完成按钮 semibold
 

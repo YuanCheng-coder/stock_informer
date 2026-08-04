@@ -41,3 +41,4 @@
 | 36 | 2026-08-05 02:04 | SettingsView: 小组件 Link Label 图标 |
 | 37 | 2026-08-05 02:04 | SettingsView: Form 背景 (dark mode) |
 | 38 | 2026-08-05 02:04 | SettingsView: 完成按钮 semibold |
+| 39 | 2026-08-05 02:04 | SettingsView: TextField 圆角边框样式 |
