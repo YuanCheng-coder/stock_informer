@@ -39,3 +39,4 @@
 | 34 | 2026-08-05 02:03 | SettingsView: 自选说明 Section |
 | 35 | 2026-08-05 02:04 | SettingsView: 添加按钮 accent tint |
 | 36 | 2026-08-05 02:04 | SettingsView: 小组件 Link Label 图标 |
+| 37 | 2026-08-05 02:04 | SettingsView: Form 背景 (dark mode) |

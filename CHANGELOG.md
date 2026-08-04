@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.37 - 2026-08-05 02:04
+- SettingsView: Form 背景 (dark mode)
+
 ## v1.0.36 - 2026-08-05 02:04
 - SettingsView: 小组件 Link Label 图标
 

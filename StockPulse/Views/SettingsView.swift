@@ -89,6 +89,8 @@ struct SettingsView: View {
                     Text("长按主屏幕 → 点左上角 + → 搜索 StockPulse，即可添加股价小组件。")
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Color(.systemGroupedBackground))
             .navigationTitle("设置")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
