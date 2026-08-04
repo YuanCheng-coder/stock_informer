@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.21 - 2026-08-05 02:03
+- AnalysisCardView: 支撑阻力 medium 字重
+
 ## v1.0.20 - 2026-08-05 02:02
 - AnalysisCardView: 投资建议区块背景
 

@@ -23,3 +23,4 @@
 | 18 | 2026-08-05 02:02 | ContentView: 快捷自选 → Label 图标 |
 | 19 | 2026-08-05 02:02 | AnalysisCardView: 摘要 callout 字体 |
 | 20 | 2026-08-05 02:02 | AnalysisCardView: 投资建议区块背景 |
+| 21 | 2026-08-05 02:03 | AnalysisCardView: 支撑阻力 medium 字重 |

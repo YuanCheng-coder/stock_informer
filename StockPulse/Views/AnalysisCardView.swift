@@ -44,7 +44,7 @@ struct AnalysisCardView: View {
                         metric(title: "阻力", value: resistance)
                     }
                 }
-                .font(.caption)
+                .font(.caption.weight(.medium))
                 .foregroundStyle(.secondary)
             }
 
