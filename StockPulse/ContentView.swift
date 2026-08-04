@@ -156,6 +156,7 @@ struct ContentView: View {
                 HStack(spacing: 10) {
                     ForEach(viewModel.watchlist) { item in
                         Button {
+                            lightHaptic()
                             searchSymbol = item.symbol
                             viewModel.selectSymbol(item.symbol)
                         } label: {
