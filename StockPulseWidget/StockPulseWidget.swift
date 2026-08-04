@@ -119,6 +119,7 @@ struct StockPulseWidgetEntryView: View {
                     prices: Array(quote.prices.suffix(20)),
                     lineColor: AppTheme.trendColor(isUp: quote.isUp)
                 )
+                .clipShape(RoundedRectangle(cornerRadius: AppTheme.pillRadius))
             }
         }
     }
