@@ -105,7 +105,7 @@ struct ContentView: View {
                 .tint(AppTheme.accent)
                 .disabled(searchSymbol.isEmpty && viewModel.selectedSymbol.isEmpty)
         }
-        .padding(.horizontal)
+        .padding(.horizontal, 16)
         .onAppear {
             searchSymbol = viewModel.selectedSymbol
         }

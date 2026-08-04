@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.72 - 2026-08-05 02:06
+- ContentView: 搜索区 horizontal padding 16
+
 ## v1.0.71 - 2026-08-05 02:06
 - AnalysisCardView: 阴影使用 AppTheme 常量
 
