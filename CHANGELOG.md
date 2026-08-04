@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.38 - 2026-08-05 02:04
+- SettingsView: 完成按钮 semibold
+
 ## v1.0.37 - 2026-08-05 02:04
 - SettingsView: Form 背景 (dark mode)
 
