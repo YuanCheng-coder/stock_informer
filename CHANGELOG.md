@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.51 - 2026-08-05 02:05
+- ContentView: 添加 UIKit 触觉反馈
+
 ## v1.0.50 - 2026-08-05 02:05
 - Widget: 小尺寸 symbol 显示名称
 
