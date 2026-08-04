@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.59 - 2026-08-05 02:05
+- AnalysisCardView: 趋势 accessibilityLabel
+
 ## v1.0.58 - 2026-08-05 02:05
 - ContentView: 分析卡片 accessibility 组合
 
