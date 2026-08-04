@@ -35,3 +35,4 @@
 | 30 | 2026-08-05 02:03 | ContentView: 价格 accessibilityLabel |
 | 31 | 2026-08-05 02:03 | SettingsView: checkmark → AppTheme.accent |
 | 32 | 2026-08-05 02:03 | SettingsView: 定时开关 Label 图标 |
+| 33 | 2026-08-05 02:03 | SettingsView: footer 文案精简 |

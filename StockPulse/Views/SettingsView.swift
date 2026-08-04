@@ -31,7 +31,7 @@ struct SettingsView: View {
                 } header: {
                     Text("定时简报")
                 } footer: {
-                    Text("开启后，会按设定间隔推送当前股价与简短投资建议。App 在前台时也会自动刷新分析。")
+                    Text("开启后，会按设定间隔推送股价简报，App 前台时同步刷新。")
                 }
 
                 Section("自选股管理") {
