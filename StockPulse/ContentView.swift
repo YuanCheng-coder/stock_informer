@@ -8,7 +8,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(spacing: 20) {
+                VStack(spacing: AppTheme.sectionSpacing) {
                     searchSection
                     if let quote = viewModel.quote {
                         quoteHeader(quote)

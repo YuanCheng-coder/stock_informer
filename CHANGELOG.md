@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.3 - 2026-08-05 01:50
+- ContentView: VStack spacing → AppTheme.sectionSpacing
+
 ## v1.0.2 - 2026-08-05 01:44
 - 添加 CHANGELOG 初始化
 
