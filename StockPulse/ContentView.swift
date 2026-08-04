@@ -158,7 +158,7 @@ struct ContentView: View {
                             .padding(.vertical, 10)
                             .background(
                                 viewModel.selectedSymbol == item.symbol
-                                    ? Color.blue.opacity(0.15)
+                                    ? AppTheme.accent.opacity(0.18)
                                     : Color.gray.opacity(0.12),
                                 in: RoundedRectangle(cornerRadius: 12)
                             )

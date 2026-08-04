@@ -11,3 +11,4 @@
 | 6 | 2026-08-05 01:55 | AnalysisCardView: card radius → AppTheme.cardRadius |
 | 7 | 2026-08-05 01:55 | AnalysisCardView: trend colors → AppTheme palette |
 | 8 | 2026-08-05 01:55 | MiniChartView: line width + round cap |
+| 9 | 2026-08-05 01:55 | ContentView: watchlist selected tint → AppTheme.accent |
