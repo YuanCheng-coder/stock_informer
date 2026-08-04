@@ -117,7 +117,7 @@ struct StockPulseWidgetEntryView: View {
             if let quote = entry.quote, !quote.prices.isEmpty {
                 MiniChartView(
                     prices: Array(quote.prices.suffix(20)),
-                    lineColor: quote.isUp ? .green : .red
+                    lineColor: AppTheme.trendColor(isUp: quote.isUp)
                 )
             }
         }
