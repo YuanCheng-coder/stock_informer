@@ -26,7 +26,7 @@ struct ContentView: View {
                         VStack(spacing: 12) {
                             Image(systemName: "chart.line.uptrend.xyaxis")
                                 .font(.largeTitle)
-                                .foregroundStyle(.secondary)
+                                .foregroundStyle(AppTheme.accent.opacity(0.55))
                             Text("暂无分析")
                                 .font(.headline)
                             Text("输入股票代码并刷新，即可查看走势分析")
