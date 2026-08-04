@@ -18,3 +18,4 @@
 | 13 | 2026-08-05 02:01 | AnalysisCardView: 内边距 16pt |
 | 14 | 2026-08-05 02:01 | AnalysisCardView: 卡片阴影 |
 | 15 | 2026-08-05 02:01 | ContentView: 图表高度 120 → 132 |
+| 16 | 2026-08-05 02:02 | ContentView: 大标题导航栏 |

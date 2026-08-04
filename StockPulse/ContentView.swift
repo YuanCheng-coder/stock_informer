@@ -45,6 +45,7 @@ struct ContentView: View {
                 await viewModel.refresh()
             }
             .navigationTitle("StockPulse")
+            .navigationBarTitleDisplayMode(.large)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {

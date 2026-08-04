@@ -206,3 +206,35 @@ GIT_PUSH_OK 8243f96e12e2c6bcff69fbdd1d80ff2278d4b5a0
 [02:01:25] --- iter #15: ContentView: 图表高度 120 → 132 ---
 [02:01:25]   [设计三问] 新特性: 走势图表美学提升 | 优雅: 线条圆润、留白舒适 | 亲肤: 淡色背景，长时间看不疲劳
 [02:01:25]   [设计三问] 新特性: 走势图表美学提升 | 优雅: 线条圆润、留白舒适 | 亲肤: 淡色背景，长时间看不疲劳
+[02:01:28] [main ba05e7f] iter #15: ContentView: 图表高度 120 → 132 [v1.0.15]
+ 7 files changed, 25 insertions(+), 3 deletions(-)
+GIT_PUSH_OK ba05e7f14804b39c9f82280672ab591051245061
+[02:01:28] [main ba05e7f] iter #15: ContentView: 图表高度 120 → 132 [v1.0.15]
+ 7 files changed, 25 insertions(+), 3 deletions(-)
+GIT_PUSH_OK ba05e7f14804b39c9f82280672ab591051245061
+[02:01:28]   OK pushed #15
+[02:01:28]   OK pushed #15
+[02:02:39]   xcodebuild FAILED (exit 65)
+[02:02:39]     
+[02:02:39]     ** BUILD FAILED **
+[02:02:39]   xcodebuild FAILED (exit 65)
+[02:02:39]     
+[02:02:39]     ** BUILD FAILED **
+[02:02:39]     
+[02:02:39]     
+[02:02:39]     
+[02:02:39]     
+[02:02:39]     The following build commands failed:
+[02:02:39]     The following build commands failed:
+[02:02:39]     	CompileSwift normal arm64 /Users/yuancheng/demo/stock_informer/StockPulse/Views/MiniChartView.swift (in target 'StockPulseWidget' from project 'StockPulse')
+[02:02:39]     	CompileSwift normal arm64 /Users/yuancheng/demo/stock_informer/StockPulse/Views/MiniChartView.swift (in target 'StockPulseWidget' from project 'StockPulse')
+[02:02:39]     	SwiftCompile normal arm64 Compiling\ MiniChartView.swift /Users/yuancheng/demo/stock_informer/StockPulse/Views/MiniChartView.swift (in target 'StockPulseWidget' from project 'StockPulse')
+[02:02:39]     	SwiftCompile normal arm64 Compiling\ MiniChartView.swift /Users/yuancheng/demo/stock_informer/StockPulse/Views/MiniChartView.swift (in target 'StockPulseWidget' from project 'StockPulse')
+[02:02:39]     (2 failures)
+[02:02:39]     (2 failures)
+[02:02:39]   WARN build failed at #15 — continuing
+[02:02:39]   WARN build failed at #15 — continuing
+[02:02:40] --- iter #16: ContentView: 大标题导航栏 ---
+[02:02:40] --- iter #16: ContentView: 大标题导航栏 ---
+[02:02:40]   [设计三问] 新特性: 界面细节持续打磨 | 优雅: 统一 AppTheme 设计语言 | 亲肤: 圆角卡片、柔和配色，长时间使用不疲劳
+[02:02:40]   [设计三问] 新特性: 界面细节持续打磨 | 优雅: 统一 AppTheme 设计语言 | 亲肤: 圆角卡片、柔和配色，长时间使用不疲劳
