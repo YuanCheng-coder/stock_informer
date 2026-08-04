@@ -105,7 +105,7 @@ struct StockPulseWidgetEntryView: View {
                         .font(.title.bold())
                         .monospacedDigit()
                     Text("\(quote.isUp ? "+" : "")\(String(format: "%.2f%%", quote.changePercent))")
-                        .foregroundStyle(quote.isUp ? .green : .red)
+                        .foregroundStyle(AppTheme.trendColor(isUp: quote.isUp))
                 }
                 if let analysis = entry.analysis {
                     Label(analysis.trend.rawValue, systemImage: "chart.line.uptrend.xyaxis")

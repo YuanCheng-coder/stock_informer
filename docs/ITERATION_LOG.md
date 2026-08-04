@@ -44,3 +44,4 @@
 | 39 | 2026-08-05 02:04 | SettingsView: TextField 圆角边框样式 |
 | 40 | 2026-08-05 02:04 | SettingsView: 间隔选项加 5 分钟 |
 | 41 | 2026-08-05 02:04 | Widget: 小尺寸涨跌色 → AppTheme |
+| 42 | 2026-08-05 02:04 | Widget: 中尺寸涨跌色 → AppTheme |
