@@ -87,3 +87,4 @@
 | 82 | 2026-08-05 02:07 | ContentView: alert 按钮改「知道了」 |
 | 83 | 2026-08-05 02:07 | SettingsView: 自选股 symbol headline → subheadline semibold |
 | 84 | 2026-08-05 02:07 | AnalysisCardView: 投资建议标题 accent |
+| 85 | 2026-08-05 02:07 | ContentView: quoteHeader spacing 8 → 10 |

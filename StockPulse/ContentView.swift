@@ -125,7 +125,7 @@ struct ContentView: View {
     }
 
     private func quoteHeader(_ quote: StockQuote) -> some View {
-        VStack(spacing: 8) {
+        VStack(spacing: 10) {
             Text(quote.name)
                 .font(.title2.weight(.semibold))
                 .multilineTextAlignment(.center)
