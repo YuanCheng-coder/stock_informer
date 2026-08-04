@@ -93,6 +93,7 @@ struct StockPulseWidgetEntryView: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        .accessibilityElement(children: .combine)
     }
 
     private var mediumView: some View {

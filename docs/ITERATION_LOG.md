@@ -65,3 +65,4 @@
 | 60 | 2026-08-05 02:05 | ContentView: 搜索框 accessibilityHint |
 | 61 | 2026-08-05 02:05 | ContentView: 空态 accessibility 组合 |
 | 62 | 2026-08-05 02:06 | SettingsView: 定时开关 accessibilityHint |
+| 63 | 2026-08-05 02:06 | Widget: 小尺寸 accessibility 组合 |

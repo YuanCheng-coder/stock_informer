@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.63 - 2026-08-05 02:06
+- Widget: 小尺寸 accessibility 组合
+
 ## v1.0.62 - 2026-08-05 02:06
 - SettingsView: 定时开关 accessibilityHint
 
