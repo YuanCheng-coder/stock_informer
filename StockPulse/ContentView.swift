@@ -95,6 +95,7 @@ struct ContentView: View {
                 .textFieldStyle(.roundedBorder)
                 .textInputAutocapitalization(.characters)
                 .autocorrectionDisabled()
+                .accessibilityHint("输入股票代码后点分析或回车")
                 .onSubmit { submitSearch() }
 
             Button("分析") { submitSearch() }

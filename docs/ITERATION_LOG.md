@@ -62,3 +62,4 @@
 | 57 | 2026-08-05 02:05 | ContentView: 刷新按钮 accessibility |
 | 58 | 2026-08-05 02:05 | ContentView: 分析卡片 accessibility 组合 |
 | 59 | 2026-08-05 02:05 | AnalysisCardView: 趋势 accessibilityLabel |
+| 60 | 2026-08-05 02:05 | ContentView: 搜索框 accessibilityHint |
