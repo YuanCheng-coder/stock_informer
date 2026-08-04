@@ -22,7 +22,7 @@ struct AnalysisCardView: View {
                 .foregroundStyle(.primary)
                 .fixedSize(horizontal: false, vertical: true)
 
-            Divider()
+            Divider().padding(.vertical, 2)
 
             VStack(alignment: .leading, spacing: 6) {
                 Text("投资建议")

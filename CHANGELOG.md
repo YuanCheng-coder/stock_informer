@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.68 - 2026-08-05 02:06
+- AnalysisCardView: Divider 间距
+
 ## v1.0.67 - 2026-08-05 02:06
 - ContentView: 未选中自选 pill 背景 semantic
 
