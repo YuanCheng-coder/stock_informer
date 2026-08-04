@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.20 - 2026-08-05 02:02
+- AnalysisCardView: 投资建议区块背景
+
 ## v1.0.19 - 2026-08-05 02:02
 - AnalysisCardView: 摘要 callout 字体
 

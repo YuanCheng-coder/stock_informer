@@ -28,7 +28,10 @@ struct AnalysisCardView: View {
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(.secondary)
                 Text(analysis.investmentAdvice)
-                    .font(.body)
+                    .font(.callout)
+                    .padding(10)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(AppTheme.accent.opacity(0.08), in: RoundedRectangle(cornerRadius: 10))
                     .fixedSize(horizontal: false, vertical: true)
             }
 
