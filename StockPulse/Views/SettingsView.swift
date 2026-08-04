@@ -13,6 +13,7 @@ struct SettingsView: View {
                     Toggle(isOn: $viewModel.periodicAnalysisEnabled) {
                         Label("定时股价分析", systemImage: "bell.badge")
                     }
+                    .accessibilityHint("开启后将按间隔推送股价简报")
                         .onChange(of: viewModel.periodicAnalysisEnabled) { enabled in
                             if enabled {
                                 Task { await viewModel.enablePeriodicAnalysis() }
