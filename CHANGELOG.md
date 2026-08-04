@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.77 - 2026-08-05 02:07
+- AnalysisCardView: VStack spacing 12 → 14
+
 ## v1.0.76 - 2026-08-05 02:07
 - ContentView: 高低价 spacing 20 → 24
 

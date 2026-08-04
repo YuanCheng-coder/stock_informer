@@ -4,7 +4,7 @@ struct AnalysisCardView: View {
     let analysis: StockAnalysis
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        VStack(alignment: .leading, spacing: 14) {
             HStack {
                 Text("走势分析")
                     .font(.headline)
