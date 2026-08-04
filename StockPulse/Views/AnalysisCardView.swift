@@ -56,7 +56,7 @@ struct AnalysisCardView: View {
         }
         .padding(16)
         .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: AppTheme.cardRadius))
-        .shadow(color: .black.opacity(0.06), radius: 8, y: 4)
+        .shadow(color: .black.opacity(AppTheme.cardShadowOpacity), radius: 8, y: 4)
     }
 
     private var trendColor: Color {

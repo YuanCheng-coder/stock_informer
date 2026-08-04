@@ -73,3 +73,4 @@
 | 68 | 2026-08-05 02:06 | AnalysisCardView: Divider 间距 |
 | 69 | 2026-08-05 02:06 | ContentView: toolbar 刷新 ProgressView tint |
 | 70 | 2026-08-05 02:06 | AppTheme: cardShadow 常量 |
+| 71 | 2026-08-05 02:06 | AnalysisCardView: 阴影使用 AppTheme 常量 |

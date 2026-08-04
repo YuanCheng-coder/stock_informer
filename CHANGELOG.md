@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.71 - 2026-08-05 02:06
+- AnalysisCardView: 阴影使用 AppTheme 常量
+
 ## v1.0.70 - 2026-08-05 02:06
 - AppTheme: cardShadow 常量
 
