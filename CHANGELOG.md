@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.35 - 2026-08-05 02:04
+- SettingsView: 添加按钮 accent tint
+
 ## v1.0.34 - 2026-08-05 02:03
 - SettingsView: 自选说明 Section
 

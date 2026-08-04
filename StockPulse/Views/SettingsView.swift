@@ -76,6 +76,7 @@ struct SettingsView: View {
                             viewModel.addToWatchlist(symbol: newSymbol)
                             newSymbol = ""
                         }
+                        .tint(AppTheme.accent)
                         .disabled(newSymbol.isEmpty)
                     }
                 }
