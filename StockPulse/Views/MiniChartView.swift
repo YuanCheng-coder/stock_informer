@@ -22,7 +22,7 @@ struct MiniChartView: View {
                         }
                     }
                 }
-                .stroke(lineColor, style: StrokeStyle(lineWidth: 2.5, lineJoin: .round, lineCap: .round))
+                .stroke(lineColor, style: StrokeStyle(lineWidth: 3, lineJoin: .round, lineCap: .round))
                 .drawingGroup()
             } else {
                 Text("暂无走势数据")

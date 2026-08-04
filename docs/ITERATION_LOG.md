@@ -28,3 +28,4 @@
 | 23 | 2026-08-05 02:03 | MiniChartView: drawingGroup 渲染优化 |
 | 24 | 2026-08-05 02:03 | ContentView: 图表卡片背景 (dark mode) |
 | 25 | 2026-08-05 02:03 | MiniChartView: 空态 accessibility |
+| 26 | 2026-08-05 02:03 | MiniChartView: 线宽增至 3 |

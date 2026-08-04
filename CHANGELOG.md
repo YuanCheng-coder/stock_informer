@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.26 - 2026-08-05 02:03
+- MiniChartView: 线宽增至 3
+
 ## v1.0.25 - 2026-08-05 02:03
 - MiniChartView: 空态 accessibility
 
