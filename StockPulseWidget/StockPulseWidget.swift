@@ -62,7 +62,7 @@ struct StockPulseWidgetEntryView: View {
     private var smallView: some View {
         VStack(alignment: .leading, spacing: 6) {
             HStack {
-                Text(entry.quote?.symbol ?? "StockPulse")
+                Text(entry.quote?.name ?? entry.quote?.symbol ?? "StockPulse")
                     .font(.caption.weight(.semibold))
                 Spacer()
                 if let analysis = entry.analysis {
