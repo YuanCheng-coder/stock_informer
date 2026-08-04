@@ -4,7 +4,7 @@ struct SettingsView: View {
     @ObservedObject var viewModel: StockViewModel
     @Environment(\.dismiss) private var dismiss
 
-    private let intervalOptions = [15, 30, 60, 120, 240]
+    private let intervalOptions = [5, 15, 30, 60, 120, 240]
 
     var body: some View {
         NavigationStack {

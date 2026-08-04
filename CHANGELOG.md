@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.40 - 2026-08-05 02:04
+- SettingsView: 间隔选项加 5 分钟
+
 ## v1.0.39 - 2026-08-05 02:04
 - SettingsView: TextField 圆角边框样式
 
