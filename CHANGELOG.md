@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.82 - 2026-08-05 02:07
+- ContentView: alert 按钮改「知道了」
+
 ## v1.0.81 - 2026-08-05 02:07
 - ContentView: 空态 headline foregroundStyle
 

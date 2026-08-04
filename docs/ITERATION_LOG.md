@@ -84,3 +84,4 @@
 | 79 | 2026-08-05 02:07 | Widget: 中尺寸 HStack spacing 12 → 14 |
 | 80 | 2026-08-05 02:07 | Widget: 小尺寸 VStack spacing 6 → 8 |
 | 81 | 2026-08-05 02:07 | ContentView: 空态 headline foregroundStyle |
+| 82 | 2026-08-05 02:07 | ContentView: alert 按钮改「知道了」 |

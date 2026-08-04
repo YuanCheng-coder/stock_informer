@@ -80,7 +80,7 @@ struct ContentView: View {
                 SettingsView(viewModel: viewModel)
             }
             .alert("提示", isPresented: .constant(viewModel.errorMessage != nil)) {
-                Button("好的") { viewModel.errorMessage = nil }
+                Button("知道了") { viewModel.errorMessage = nil }
             } message: {
                 Text(viewModel.errorMessage ?? "")
             }
