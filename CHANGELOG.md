@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.66 - 2026-08-05 02:06
+- ContentView: ScrollView 背景 grouped
+
 ## v1.0.65 - 2026-08-05 02:06
 - AnalysisCardView: 更新时间 accessibility
 

@@ -46,6 +46,7 @@ struct ContentView: View {
                 }
                 .padding(.vertical)
             }
+            .background(Color(.systemGroupedBackground))
             .refreshable {
                 await viewModel.refresh()
             }
