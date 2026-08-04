@@ -82,3 +82,4 @@
 | 77 | 2026-08-05 02:07 | AnalysisCardView: VStack spacing 12 → 14 |
 | 78 | 2026-08-05 02:07 | MiniChartView: 空态 frame center |
 | 79 | 2026-08-05 02:07 | Widget: 中尺寸 HStack spacing 12 → 14 |
+| 80 | 2026-08-05 02:07 | Widget: 小尺寸 VStack spacing 6 → 8 |

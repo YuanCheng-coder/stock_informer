@@ -60,7 +60,7 @@ struct StockPulseWidgetEntryView: View {
     }
 
     private var smallView: some View {
-        VStack(alignment: .leading, spacing: 6) {
+        VStack(alignment: .leading, spacing: 8) {
             HStack {
                 Text(entry.quote?.name ?? entry.quote?.symbol ?? "StockPulse")
                     .font(.caption.weight(.semibold))
