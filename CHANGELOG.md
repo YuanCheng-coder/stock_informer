@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.74 - 2026-08-05 02:06
+- ContentView: 分析按钮 → Label 图标
+
 ## v1.0.73 - 2026-08-05 02:06
 - ContentView: watchlist 间距 10 → 8
 

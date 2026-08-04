@@ -100,7 +100,9 @@ struct ContentView: View {
                 .accessibilityHint("输入股票代码后点分析或回车")
                 .onSubmit { submitSearch() }
 
-            Button("分析") { submitSearch() }
+            Button { submitSearch() } label: {
+                Label("分析", systemImage: "chart.line.uptrend.xyaxis")
+            }
                 .buttonStyle(.borderedProminent)
                 .tint(AppTheme.accent)
                 .disabled(searchSymbol.isEmpty && viewModel.selectedSymbol.isEmpty)

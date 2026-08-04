@@ -76,3 +76,4 @@
 | 71 | 2026-08-05 02:06 | AnalysisCardView: 阴影使用 AppTheme 常量 |
 | 72 | 2026-08-05 02:06 | ContentView: 搜索区 horizontal padding 16 |
 | 73 | 2026-08-05 02:06 | ContentView: watchlist 间距 10 → 8 |
+| 74 | 2026-08-05 02:06 | ContentView: 分析按钮 → Label 图标 |
