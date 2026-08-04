@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.78 - 2026-08-05 02:07
+- MiniChartView: 空态 frame center
+
 ## v1.0.77 - 2026-08-05 02:07
 - AnalysisCardView: VStack spacing 12 → 14
 
